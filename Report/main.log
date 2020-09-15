@@ -1,0 +1,1066 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.6.29)  15 SEP 2020 15:25
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cl
+s"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo
+"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.s
+ty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
+cx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
+cs.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.s
+ty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gr
+aphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pd
+ftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption
+.sty"
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption
+3.sty"
+Package: caption3 2020/05/30 v1.12 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count175
+\c@continuedfloat=\count176
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcapt
+ion.sty"
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count177
+\c@subtable=\count178
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geomet
+ry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.
+sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.s
+ty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count179
+\Gm@cntv=\count180
+\c@Gm@tempcnt=\count181
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks18
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geomet
+ry.cfg"))
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyh
+dr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
+ex.sty"
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdft
+excmds.sty"
+Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\inf
+warerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcm
+ds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolb
+ox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count182
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvopt
+ions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvs
+etkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.s
+ty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count183
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.d
+ef"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count184
+\c@listtotal=\count185
+\c@listcount=\count186
+\c@liststart=\count187
+\c@liststop=\count188
+\c@citecount=\count189
+\c@citetotal=\count190
+\c@multicitecount=\count191
+\c@multicitetotal=\count192
+\c@instcount=\count193
+\c@maxnames=\count194
+\c@minnames=\count195
+\c@maxitems=\count196
+\c@minitems=\count197
+\c@citecounter=\count198
+\c@maxcitecounter=\count199
+\c@savedcitecounter=\count266
+\c@uniquelist=\count267
+\c@uniquename=\count268
+\c@refsection=\count269
+\c@refsegment=\count270
+\c@maxextratitle=\count271
+\c@maxextratitleyear=\count272
+\c@maxextraname=\count273
+\c@maxextradate=\count274
+\c@maxextraalpha=\count275
+\c@abbrvpenalty=\count276
+\c@highnamepenalty=\count277
+\c@lownamepenalty=\count278
+\c@maxparens=\count279
+\c@parenlevel=\count280
+\blx@tempcnta=\count281
+\blx@tempcntb=\count282
+\blx@tempcntc=\count283
+\blx@maxsection=\count284
+\blx@maxsegment@0=\count285
+\blx@notetype=\count286
+\blx@parenlevel@text=\count287
+\blx@parenlevel@foot=\count288
+\blx@sectionciteorder@0=\count289
+\blx@entrysetcounter=\count290
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count291
+\c@maxcomprange=\count292
+\c@mincompwidth=\count293
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm
+.def"
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count294
+\c@savedafterword=\count295
+\c@annotator=\count296
+\c@savedannotator=\count297
+\c@author=\count298
+\c@savedauthor=\count299
+\c@bookauthor=\count300
+\c@savedbookauthor=\count301
+\c@commentator=\count302
+\c@savedcommentator=\count303
+\c@editor=\count304
+\c@savededitor=\count305
+\c@editora=\count306
+\c@savededitora=\count307
+\c@editorb=\count308
+\c@savededitorb=\count309
+\c@editorc=\count310
+\c@savededitorc=\count311
+\c@foreword=\count312
+\c@savedforeword=\count313
+\c@holder=\count314
+\c@savedholder=\count315
+\c@introduction=\count316
+\c@savedintroduction=\count317
+\c@namea=\count318
+\c@savednamea=\count319
+\c@nameb=\count320
+\c@savednameb=\count321
+\c@namec=\count322
+\c@savednamec=\count323
+\c@translator=\count324
+\c@savedtranslator=\count325
+\c@shortauthor=\count326
+\c@savedshortauthor=\count327
+\c@shorteditor=\count328
+\c@savedshorteditor=\count329
+\c@labelname=\count330
+\c@savedlabelname=\count331
+\c@institution=\count332
+\c@savedinstitution=\count333
+\c@lista=\count334
+\c@savedlista=\count335
+\c@listb=\count336
+\c@savedlistb=\count337
+\c@listc=\count338
+\c@savedlistc=\count339
+\c@listd=\count340
+\c@savedlistd=\count341
+\c@liste=\count342
+\c@savedliste=\count343
+\c@listf=\count344
+\c@savedlistf=\count345
+\c@location=\count346
+\c@savedlocation=\count347
+\c@organization=\count348
+\c@savedorganization=\count349
+\c@origlocation=\count350
+\c@savedoriglocation=\count351
+\c@origpublisher=\count352
+\c@savedorigpublisher=\count353
+\c@publisher=\count354
+\c@savedpublisher=\count355
+\c@language=\count356
+\c@savedlanguage=\count357
+\c@origlanguage=\count358
+\c@savedoriglanguage=\count359
+\c@pageref=\count360
+\c@savedpageref=\count361
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-co
+mpat.def"
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
+ex.def"
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count362
+\c@textcitetotal=\count363
+\c@textcitemaxnames=\count364
+\c@biburlbigbreakpenalty=\count365
+\c@biburlbreakpenalty=\count366
+\c@biburlnumpenalty=\count367
+\c@biburlucpenalty=\count368
+\c@biburllcpenalty=\count369
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count370
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\nu
+meric.bbx"
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\st
+andard.bbx"
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count371
+\c@bbx:relatedtotal=\count372
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\nu
+meric.cbx"
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
+ex.cfg"
+File: biblatex.cfg 
+))
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sidecap\sidecap
+.sty"
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+\SC@BOXWD=\dimen152
+\SC@CAPWD=\dimen153
+\SC@tempdima=\dimen154
+\SC@tempdimb=\dimen155
+\c@SC@C=\count373
+\SC@BOX=\box45
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrapfig
+.sty"
+\wrapoverhang=\dimen156
+\WF@size=\dimen157
+\c@WF@wrappedlines=\count374
+\WF@box=\box46
+\WF@everypar=\toks19
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/nath\nath.sty"
+
+Nath as of 21 March 2003 
+Implementing NAtural maTH notation
+\mex=\dimen158
+\protect@toks=\toks20
+\mathindent=\dimen159
+\disp@box@width=\dimen160
+\disp@width=\dimen161
+\interdisplayskip=\skip80
+\intereqnsskip=\skip81
+\belowdisplayskip@=\skip82
+\c@eqnabc=\count375
+\displaylineskip=\skip83
+\displaybaselineskip=\skip84
+\displaylineskiplimit=\dimen162
+\eqnnumlowering@=\dimen163
+\paritemwd=\dimen164
+\mathcount@=\count376
+\delimaxis@=\dimen165
+\strutsize@=\dimen166
+\curr@rm=\toks21
+\sizebox=\box47
+\sizebox@=\box48
+\idelimlevel@=\count377
+\ddelimlevel@=\count378
+\ddelim@count=\count379
+\ddcount@=\count380
+\ddcount@@=\count381
+\delimincrement@=\dimen167
+\delimgrowth@=\count382
+\ddcount@=\count383
+\big@=\count384
+\big@@=\count385
+\bigstrut@box=\box49
+\sp@toks=\toks22
+\sb@toks=\toks23
+\abbrevlength@=\count386
+\er@wd=\dimen168
+\acc@toks=\toks24
+\xheight@=\dimen169
+\htdecrement@=\dimen170
+\dpdecrement@=\dimen171
+\fracrulethickness@=\dimen172
+\wrapfrac@dim=\dimen173
+\wrapfrac@box=\box50
+\hline@num=\count387
+\arrayrowsepdim=\dimen174
+\amp@count=\count388
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\gensymb.sty
+"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfir
+st.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/generic/genmisc\nth.s
+ty"
+Package: nth 2002/02/27
+)
+\@quotelevel=\count389
+\@quotereset=\count390
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3bac
+kend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-23 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count391
+\l__pdf_internal_box=\box51
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
+p-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count392
+\scratchdimen=\dimen175
+\scratchbox=\box52
+\nofMPsegments=\count393
+\nofMParguments=\count394
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count395
+\MPscratchDim=\dimen176
+\MPnumerator=\count396
+\makeMPintoPDFobject=\count397
+\everyMPtoPDFconversion=\toks26
+)
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\ep
+stopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfext.s
+ty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\
+kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: sidecap package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 17.07164pt
+* modes: twoside 
+* h-part:(L,W,R)=(61.45795pt, 426.79134pt, 92.18695pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=702.78308pt
+* \oddsidemargin=6.2596pt
+* \evensidemargin=19.91696pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=121.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\en
+glish.lbx"
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ragged2e\ragged
+2e.sty"
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+("C:\Users\bkuseyri\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everysel.sty
+"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip85
+\RaggedLeftLeftskip=\skip86
+\RaggedRightLeftskip=\skip87
+\CenteringRightskip=\skip88
+\RaggedLeftRightskip=\skip89
+\RaggedRightRightskip=\skip90
+\CenteringParfillskip=\skip91
+\RaggedLeftParfillskip=\skip92
+\RaggedRightParfillskip=\skip93
+\JustifyingParfillskip=\skip94
+\CenteringParindent=\skip95
+\RaggedLeftParindent=\skip96
+\RaggedRightParindent=\skip97
+\JustifyingParindent=\skip98
+)
+LaTeX Info: Redefining \celsius on input line 31.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 31.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 31.
+Package gensymb Info: Using \Omega for \ohm on input line 31.
+
+Package gensymb Warning: Not defining \micro.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 38.
+(main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [1
+
+{C:/Users/bkuseyri/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (chapter
+s/intro.tex
+<images/oersted1.png, id=10, 305.64188pt x 230.36063pt>
+File: images/oersted1.png Graphic file (type png)
+<use images/oersted1.png>
+Package pdftex.def Info: images/oersted1.png  used on input line 24.
+(pdftex.def)             Requested size: 106.69783pt x 80.41652pt.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 28
+.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+31.
+
+<images/solenoid1.png, id=11, 247.42438pt x 132.99687pt>
+File: images/solenoid1.png Graphic file (type png)
+<use images/solenoid1.png>
+Package pdftex.def Info: images/solenoid1.png  used on input line 33.
+(pdftex.def)             Requested size: 106.69783pt x 57.35191pt.
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+41.
+
+<images/lenz1.png, id=12, 403.5075pt x 167.62625pt>
+File: images/lenz1.png Graphic file (type png)
+<use images/lenz1.png>
+Package pdftex.def Info: images/lenz1.png  used on input line 43.
+(pdftex.def)             Requested size: 106.69783pt x 44.32353pt.
+
+Underfull \hbox (badness 3148) in paragraph at lines 40--44
+[]\OT1/cmr/m/n/10 According to Lenz' law, change in flux in a coil in-duces
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+\OT1/cmr/m/n/10 volt-age to com-ple-ment the re-duc-tion.
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 44
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 46
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 46
+.
+
+Nath Warning: No label in equation (1) on input line 48.
+Nath Warning: No label in equation (2) on input line 59.
+Nath Warning: No label in equation (3) on input line 69.
+Nath Warning: No label in equation (4) on input line 75.
+[2 <./images/oersted1.png> <./images/solenoid1.png> <./images/lenz1.png>]
+Nath Warning: No label in equation (5) on input line 81.
+Nath Warning: No label in equation (6) on input line 87.
+Nath Warning: No label in equation (7) on input line 93.
+Nath Warning: No label in equation (8) on input line 98.
+Nath Warning: No label in equation (10) on input line 111.
+<images/Bfield_vacuumvsferromag1.png, id=22, 310.15875pt x 154.5775pt>
+File: images/Bfield_vacuumvsferromag1.png Graphic file (type png)
+<use images/Bfield_vacuumvsferromag1.png>
+Package pdftex.def Info: images/Bfield_vacuumvsferromag1.png  used on input lin
+e 123.
+(pdftex.def)             Requested size: 106.69783pt x 53.17596pt.
+<images/magneticDipole.png, id=23, 803.0pt x 803.0pt>
+File: images/magneticDipole.png Graphic file (type png)
+<use images/magneticDipole.png>
+Package pdftex.def Info: images/magneticDipole.png  used on input line 132.
+(pdftex.def)             Requested size: 320.09349pt x 320.1038pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package caption Warning: \label without proper reference on input line 154.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:divcurl' on page 3 undefined on input line 140.
+
+
+Package caption Warning: \label without proper reference on input line 154.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:divcurl' on page 3 undefined on input line 143.
+
+
+Package caption Warning: \label without proper reference on input line 154.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:divcurl' on page 3 undefined on input line 143.
+
+
+Overfull \hbox (2.6815pt too wide) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/10 Divergence ex-presses that net flux through an en-closed sur-
+face is de-ter-mined by the sources/sinks
+ []
+
+Nath Warning: No label in equation (12) on input line 149.
+<images/math_operators1.png, id=24, 343.78438pt x 137.51375pt>
+File: images/math_operators1.png Graphic file (type png)
+<use images/math_operators1.png>
+Package pdftex.def Info: images/math_operators1.png  used on input line 153.
+(pdftex.def)             Requested size: 320.09349pt x 128.03754pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./images/Bfield_vacuumvsferromag1.png>]
+Nath Warning: No label in equation (13) on input line 173.
+Nath Warning: No label in equation (14) on input line 175.
+Nath Warning: No label in equation (15) on input line 177.
+Nath Warning: No label in equation (16) on input line 185.
+
+LaTeX Warning: Citation 'Pyrhonen' on page 4 undefined on input line 187.
+
+[4 <./images/magneticDipole.png> <./images/math_operators1.png>]
+Nath Warning: No label in equation (17) on input line 190.
+Nath Warning: No label in equation (18) on input line 193.
+Nath Warning: No label in equation (19) on input line 202.
+Nath Warning: No label in equation (20) on input line 205.
+Nath Warning: No label in equation (21) on input line 208.
+Nath Warning: No label in equation (23) on input line 224.
+
+Package caption Warning: \label without proper reference on input line 263.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:strcurrentB' on page 5 undefined on input line 23
+3.
+
+Nath Warning: No label in equation (24) on input line 237.
+Nath Warning: No label in equation (25) on input line 241.
+Nath Warning: No label in equation (26) on input line 247.
+Nath Warning: No label in equation (27) on input line 253.
+
+LaTeX Warning: Citation 'ohandley_modern_2000' on page 5 undefined on input lin
+e 255.
+
+<images/oersted2.png, id=32, 377.41pt x 126.97438pt>
+File: images/oersted2.png Graphic file (type png)
+<use images/oersted2.png>
+Package pdftex.def Info: images/oersted2.png  used on input line 262.
+(pdftex.def)             Requested size: 320.09349pt x 107.69041pt.
+[5]
+Nath Warning: No label in equation (28) on input line 267.
+Nath Warning: No label in equation (29) on input line 268.
+Nath Warning: No label in equation (30) on input line 270.
+Nath Warning: No label in equation (31) on input line 273.
+Nath Warning: No label in equation (32) on input line 274.
+Nath Warning: No label in equation (33) on input line 275.
+Nath Warning: No label in equation (34) on input line 276.
+Nath Warning: No label in equation (35) on input line 278.
+Nath Warning: No label in equation (36) on input line 281.
+Nath Warning: No label in equation (37) on input line 282.
+Nath Warning: No label in equation (38) on input line 284.
+
+Package caption Warning: \label without proper reference on input line 296.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:coilfield1' on page 6 undefined on input line 292
+.
+
+<images/coilfield1.png, id=36, 169.13188pt x 65.24374pt>
+File: images/coilfield1.png Graphic file (type png)
+<use images/coilfield1.png>
+Package pdftex.def Info: images/coilfield1.png  used on input line 295.
+(pdftex.def)             Requested size: 106.69783pt x 41.1605pt.
+Nath Warning: No label in equation (39) on input line 301.
+Nath Warning: No label in equation (40) on input line 306.
+[6 <./images/oersted2.png> <./images/coilfield1.png>]
+Nath Warning: No label in equation (41) on input line 310.
+Nath Warning: No label in equation (42) on input line 313.
+Nath Warning: No label in equation (43) on input line 322.
+Nath Warning: No label in equation (44) on input line 324.
+Nath Warning: No label in equation (45) on input line 329.
+Nath Warning: No label in equation (46) on input line 331.
+Nath Warning: No label in equation (47) on input line 341.
+Nath Warning: No label in equation (48) on input line 342.
+Nath Warning: No label in equation (49) on input line 344.
+Nath Warning: No label in equation (50) on input line 349.
+Nath Warning: No label in equation (51) on input line 351.
+Nath Warning: No label in equation (52) on input line 364.
+[7]
+Nath Warning: No label in equation (53) on input line 374.
+
+LaTeX Warning: Citation 'O'Handley' on page 8 undefined on input line 381.
+
+<images/curie_temperature1.png, id=45, 413.545pt x 176.66pt>
+File: images/curie_temperature1.png Graphic file (type png)
+<use images/curie_temperature1.png>
+Package pdftex.def Info: images/curie_temperature1.png  used on input line 386.
+
+(pdftex.def)             Requested size: 320.09349pt x 136.74295pt.
+<images/BH_loops_magneticdomains1.png, id=46, 372.89313pt x 192.21812pt>
+File: images/BH_loops_magneticdomains1.png Graphic file (type png)
+<use images/BH_loops_magneticdomains1.png>
+Package pdftex.def Info: images/BH_loops_magneticdomains1.png  used on input li
+ne 404.
+(pdftex.def)             Requested size: 320.09349pt x 165.0081pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./images/curie_temperature1.png>]
+<images/barkhausen1.png, id=50, 343.2825pt x 240.39813pt>
+File: images/barkhausen1.png Graphic file (type png)
+<use images/barkhausen1.png>
+Package pdftex.def Info: images/barkhausen1.png  used on input line 414.
+(pdftex.def)             Requested size: 149.37956pt x 104.60901pt.
+ [9 <./images/BH_loops_magneticdomains1.png> <./images/barkhausen1.png>]
+Nath Warning: No label in equation (54) on input line 440.
+<images/demagnetizingField1.png, id=54, 385.94188pt x 210.28563pt>
+File: images/demagnetizingField1.png Graphic file (type png)
+<use images/demagnetizingField1.png>
+Package pdftex.def Info: images/demagnetizingField1.png  used on input line 448
+.
+(pdftex.def)             Requested size: 362.77524pt x 197.6621pt.
+
+Package caption Warning: \label without proper reference on input line 449.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:demagnetizingField1' on page 10 undefined on inpu
+t line 452.
+
+) (chapters/pyrhonen.tex
+
+Package caption Warning: \label without proper reference on input line 9.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:domainsandwalls' on page 10 undefined on input li
+ne 4.
+
+<images/domains_walls.png, id=55, 374.39874pt x 223.83624pt>
+File: images/domains_walls.png Graphic file (type png)
+<use images/domains_walls.png>
+Package pdftex.def Info: images/domains_walls.png  used on input line 8.
+(pdftex.def)             Requested size: 149.37956pt x 89.30748pt.
+
+Package caption Warning: \label without proper reference on input line 29.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:magnetization1' on page 10 undefined on input lin
+e 12.
+
+[10 <./images/demagnetizingField1.png> <./images/domains_walls.png>]
+<images/magnetization1.png, id=59, 489.83pt x 210.28563pt>
+File: images/magnetization1.png Graphic file (type png)
+<use images/magnetization1.png>
+Package pdftex.def Info: images/magnetization1.png  used on input line 28.
+(pdftex.def)             Requested size: 362.77524pt x 155.74368pt.
+<images/magnetization2.png, id=60, 476.78125pt x 296.60812pt>
+File: images/magnetization2.png Graphic file (type png)
+<use images/magnetization2.png>
+Package pdftex.def Info: images/magnetization2.png  used on input line 34.
+(pdftex.def)             Requested size: 149.37956pt x 92.92967pt.
+
+Nath Warning: No label in equation (55) on input line 47.
+Nath Warning: No label in equation (56) on input line 53.
+Nath Warning: No label in equation (57) on input line 57.
+Nath Warning: No label in equation (58) on input line 61.
+Nath Warning: No label in equation (59) on input line 64.
+[11 <./images/magnetization1.png> <./images/magnetization2.png>]
+<images/hysteresiscurve1.png, id=65, 472.26437pt x 208.27812pt>
+File: images/hysteresiscurve1.png Graphic file (type png)
+<use images/hysteresiscurve1.png>
+Package pdftex.def Info: images/hysteresiscurve1.png  used on input line 68.
+(pdftex.def)             Requested size: 149.37956pt x 65.87808pt.
+
+Nath Warning: No label in equation (60) on input line 79.
+Nath Warning: No label in equation (61) on input line 82.
+Nath Warning: No label in equation (62) on input line 97.
+Nath Warning: No label in equation (63) on input line 103.
+
+Package caption Warning: \label without proper reference on input line 121.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ringMagCirc' on page 12 undefined on input line 1
+10.
+
+<images/ringMagCirc.png, id=66, 267.49937pt x 213.79875pt>
+File: images/ringMagCirc.png Graphic file (type png)
+<use images/ringMagCirc.png>
+Package pdftex.def Info: images/ringMagCirc.png  used on input line 120.
+(pdftex.def)             Requested size: 192.0548pt x 153.50761pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12 <./images/hysteresiscurve1.png>]
+
+Package caption Warning: \label without proper reference on input line 142.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:BHcurve1' on page 13 undefined on input line 137.
+
+
+
+LaTeX Warning: Citation 'pyrhonen_design_2014' on page 13 undefined on input li
+ne 137.
+
+<images/BHcurve1.png, id=70, 365.365pt x 211.79124pt>
+File: images/BHcurve1.png Graphic file (type png)
+<use images/BHcurve1.png>
+Package pdftex.def Info: images/BHcurve1.png  used on input line 141.
+(pdftex.def)             Requested size: 298.75262pt x 173.18518pt.
+
+Package caption Warning: \label without proper reference on input line 153.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:softHardMagCirc' on page 13 undefined on input li
+ne 148.
+
+[13 <./images/ringMagCirc.png> <./images/BHcurve1.png>]
+<images/softHardMagCirc.png, id=75, 257.46187pt x 150.5625pt>
+File: images/softHardMagCirc.png Graphic file (type png)
+<use images/softHardMagCirc.png>
+Package pdftex.def Info: images/softHardMagCirc.png  used on input line 152.
+(pdftex.def)             Requested size: 192.0548pt x 112.31506pt.
+
+
+Package caption Warning: \label without proper reference on input line 21.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:vac677TP' on page 14 undefined on input line 177.
+
+
+) (chapters/appendix.tex
+<images/2ndquarter.png, id=76, 475.27562pt x 237.88875pt>
+File: images/2ndquarter.png Graphic file (type png)
+<use images/2ndquarter.png>
+Package pdftex.def Info: images/2ndquarter.png  used on input line 6.
+(pdftex.def)             Requested size: 426.79134pt x 213.62962pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Nath Warning: No label in equation (66) on input line 14.
+<images/vac677TP.png, id=77, 439.14063pt x 265.99374pt>
+File: images/vac677TP.png Graphic file (type png)
+<use images/vac677TP.png>
+Package pdftex.def Info: images/vac677TP.png  used on input line 20.
+(pdftex.def)             Requested size: 149.37956pt x 90.48131pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Nath Warning: No label in equation (67) on input line 26.
+Nath Warning: No label in equation (68) on input line 32.
+[14 <./images/softHardMagCirc.png>]
+Nath Warning: No label in equation (69) on input line 37.
+Nath Warning: No label in equation (70) on input line 38.
+Nath Warning: No label in equation (71) on input line 39.
+Nath Warning: No label in equation (72) on input line 41.
+
+Package caption Warning: \label without proper reference on input line 7.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:2ndquarter' on page 15 undefined on input line 43
+.
+
+Nath Warning: No label in equation (73) on input line 53.
+[15 <./images/2ndquarter.png> <./images/vac677TP.png>]) (chapters/questions.tex
+) [16]
+
+LaTeX Warning: Empty bibliography on input line 57.
+
+(main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11417 strings out of 480790
+ 206963 string characters out of 2893986
+ 846249 words of memory out of 3000000
+ 27284 multiletter control sequences out of 15000+200000
+ 537893 words of font info for 42 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,26n,45p,1306b,1297s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\bkuseyri\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
+00\tcrm1000.pk><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bkuseyri/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/bkusey
+ri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi5.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bkuseyri/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bkuseyri/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
+Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/bkuseyri/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (16 pages, 1029169 bytes).
+PDF statistics:
+ 132 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+

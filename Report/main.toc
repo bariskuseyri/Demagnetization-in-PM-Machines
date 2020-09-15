@@ -1,0 +1,91 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\hbox to\@tempdima {1\hfil }Intro}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {1.1\hfil }Magnetic Fields: Observation}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.1.1\hfil }Current-Carrying Wire}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.1.2\hfil }Solenoid}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Earth's magnetic field}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.1.3\hfil }Voltage Induced in a Coil}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {1.2\hfil }Constitutive Relations}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {1.3\hfil }Maxwell's Equations}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.3.1\hfil }Preliminary Mathematics}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Gauss's Theorem}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Stokes Theorem}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Gauss's Law for Electric Fields}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Gauss's Law for Magnetic Fields}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Faraday's Induction Law}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ampere's Law}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {1.4\hfil }Magnetism and Currents}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.4.1\hfil }Magnetic Field about a Straight Current-Carrying Wire}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.4.2\hfil }Moment of a Current Loop}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.4.3\hfil }Origin of Atomic Magnetic Moment}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Calculating Magnetism in Hydrogen Atom w.r.t. Bohr Model}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {1.5\hfil }Types of Magnetism}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.5.1\hfil }Weak Magnetism}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.5.2\hfil }Ferromagnetism}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.5.3\hfil }Antimagnetism and Ferrimagnetism}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {1.6\hfil }Technical Magnetic Materials}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.6.1\hfil }B-H Loops and Magnetic Domains}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.6.2\hfil }Soft Magnetic Materials}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.6.3\hfil }Hard Magnetic Materials}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {1.6.4\hfil }Demagnetizing Field}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\hbox to\@tempdima {2\hfil }Magnetic Materials of a Rotating Machine: Pyrhonen 3.6}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {2.1\hfil }Losses in Iron Circuits: Pyrhonen 3.6.2}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {2.1.1\hfil }Hysteresis Losses}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {2.1.2\hfil }Eddy Current Losses}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\hbox to\@tempdima {3\hfil }Permanent Magnets in Rotating Machines: Pyrhonen 3.7}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.1\hfil }Operating Point of a Permanent Magnet Circuit: Pyrhonen 3.7.3}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Magnetization:}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Magnetic Circuit: PM + Air gap}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Magnetic Circuit: PM + Air gap + Load}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Magnetic Circuit: PM + Soft Magnetic Material + Airgap}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Magnetic Circuit Representation of PM}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.2\hfil }Demagnetization of Permanent Magnets: Pyrhonen 3.7.4}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Load Based Demagnetization}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Temperature Based Demagnetization}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\hbox to\@tempdima {A\hfil }Appendix}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\hbox to\@tempdima {B\hfil }Questions}{16}%
