@@ -1,0 +1,6 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	I='40kA'
+$end 'VariableValues'

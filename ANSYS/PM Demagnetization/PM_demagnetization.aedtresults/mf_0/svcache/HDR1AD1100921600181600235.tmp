@@ -1,0 +1,211 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=12
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='Surface_detection_circle1'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='H_1'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='B_1'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.CplCoef(Current1,Current1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.Lnom(Current1,Current1)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.MagFluxNom(Current1)'
+			ValueState(152, 22, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='Area(PM1)'
+			ValueState(235, 35, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=7
+		$begin 'SimValueParams'
+			QuantityName='Matrix_Coupling_Coeff'
+			ValueState(22, 3, 1, 7)
+			MatrixSize(2, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=8
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.MagFlux(Group1)'
+			ValueState(152, 22, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=9
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Group1,Group1)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=10
+		$begin 'SimValueParams'
+			QuantityName='H_2'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=11
+		$begin 'SimValueParams'
+			QuantityName='B_2'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=7
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=8
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=412
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'100kA\''
+							MinorCacheFile='min72A9142401600208555239.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'20kA\''
+							MinorCacheFile='min6FE142401600210149290.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'25kA\''
+							MinorCacheFile='min6FE142401600210149291.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'30kA\''
+							MinorCacheFile='min6FE142401600210149292.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'35kA\''
+							MinorCacheFile='min6FE142401600210149293.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'40kA\''
+							MinorCacheFile='min6FE142401600210149294.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'45kA\''
+							MinorCacheFile='min6FE142401600210149295.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'50kA\''
+							MinorCacheFile='min6FE142401600210149296.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'55kA\''
+							MinorCacheFile='min6FE142401600210149297.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'60kA\''
+							MinorCacheFile='min6FE142401600210149298.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'65kA\''
+							MinorCacheFile='min6FE142401600210149299.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'70kA\''
+							MinorCacheFile='min6FE142401600210149300.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'75kA\''
+							MinorCacheFile='min6FE142401600210149301.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'80kA\''
+							MinorCacheFile='min6FE142401600210149302.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'0kA\''
+							MinorCacheFile='min8E5142401600210298318.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'5kA\''
+							MinorCacheFile='min8E5142401600210298319.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'10kA\''
+							MinorCacheFile='min8E5142401600210298320.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'15kA\''
+							MinorCacheFile='min8E5142401600210298321.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'-20kA\''
+							MinorCacheFile='minAB1142401600210439334.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'-15kA\''
+							MinorCacheFile='minAB1142401600210439335.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'-10kA\''
+							MinorCacheFile='minAB1142401600210439336.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='I=\'-5kA\''
+							MinorCacheFile='minAB1142401600210439337.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'
