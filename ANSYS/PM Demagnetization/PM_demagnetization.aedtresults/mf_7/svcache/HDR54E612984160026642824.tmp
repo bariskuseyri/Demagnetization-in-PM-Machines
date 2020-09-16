@@ -1,0 +1,124 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=7
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='L(Winding1,Winding1)'
+			ValueState(24, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='InputCurrent(Winding1)'
+			ValueState(76, 10, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='VolumePercentageAbove10Percent'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='InducedVoltage(Winding1)'
+			ValueState(67, 9, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='Surface_detection_circle1'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='B_1'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='H_1'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=7
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=18
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=121
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'0ms\''
+							MinorCacheFile='min20C9129841600272377499.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'1ms\''
+							MinorCacheFile='min20C9129841600272377500.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'2ms\''
+							MinorCacheFile='min20C9129841600272377501.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'3ms\''
+							MinorCacheFile='min20C9129841600272377502.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'4ms\''
+							MinorCacheFile='min20C9129841600272377503.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'5ms\''
+							MinorCacheFile='min20C9129841600272377504.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'6ms\''
+							MinorCacheFile='min20C9129841600272377505.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'7ms\''
+							MinorCacheFile='min20C9129841600272377506.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'8ms\''
+							MinorCacheFile='min20C9129841600272377507.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'9ms\''
+							MinorCacheFile='min20C9129841600272377508.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='Time=\'10ms\''
+							MinorCacheFile='min20C9129841600272377509.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

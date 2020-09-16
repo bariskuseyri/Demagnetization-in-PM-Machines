@@ -1,0 +1,153 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000009, day=000000000016, hour=000000000019, min=000000000006, sec=000000000017)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000004601, lin=000000000133, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign2'
+	VersionID=121
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=181
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='I_coil=\'40A\'', ID=75)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=75, Ver=121, Dir='DV75_V121.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=75, Ver=121, Dir='DV75_MI0_V121.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=17, Instance=\'SetupDefinition\', Solution=-1, VersionID=121)'='SolutionBlock11'
+	'SolutionKey(SimSetup=17, Instance=\'SolutionDefinition\', Solution=18, VersionID=121)'='SolutionBlock10'
+$end 'BlockMapName'
+$begin 'SolutionBlock11'
+	SimSetupID=17
+	SimSetupName='Setup1'
+	VersionID=121
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(45, 0, 47, 0.002, 49, 0.004, 51, 0.006, 53, 0.008, 55, 0.01, 147, 0.001, 149, 0.003, 151, 0.005, 153, 0.007, 155, 0.009000000000000001, 157, 0.011, 159, 0.012, 161, 0.013, 163, 0.01400000000000001, 165, 0.01500000000000001, 167, 0.01600000000000001, 169, 0.01700000000000001, 171, 0.01800000000000001, 173, 0.01900000000000001, 175, 0.02)
+		$begin 'DataMap'
+			VID=75
+			Ver=121
+			M(DblID=45, Dir='DV75_S17_V121.cmesh45/')
+			M(DblID=147, Dir='DV75_S17_V121.cmesh147/')
+			M(DblID=47, Dir='DV75_S17_V121.cmesh47/')
+			M(DblID=149, Dir='DV75_S17_V121.cmesh149/')
+			M(DblID=49, Dir='DV75_S17_V121.cmesh49/')
+			M(DblID=151, Dir='DV75_S17_V121.cmesh151/')
+			M(DblID=51, Dir='DV75_S17_V121.cmesh51/')
+			M(DblID=153, Dir='DV75_S17_V121.cmesh153/')
+			M(DblID=53, Dir='DV75_S17_V121.cmesh53/')
+			M(DblID=155, Dir='DV75_S17_V121.cmesh155/')
+			M(DblID=55, Dir='DV75_S17_V121.cmesh55/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'StartingMesh'
+		IDDblMap(43, -1)
+		$begin 'DataMap'
+			VID=75
+			Ver=121
+			SM(DblID=43, Dir='DV75_S17_V121.smesh43/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'Profiles'
+		P(VID=75, Ver=121, File='DV75_S17_V121.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=75, Ver=121, Dir='DV75_S17_MI0_V121.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=75, Ver=121, Dir='DV75_S17_V121_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock11'
+$begin 'SolutionBlock10'
+	SolutionName='Transient'
+	SolutionID=18
+	V=121
+	$begin 'States'
+		F(VID=75, Ver=121)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(46, 0, 48, 0.002, 50, 0.004, 52, 0.006, 54, 0.008, 56, 0.01, 148, 0.001, 150, 0.003, 152, 0.005, 154, 0.007, 156, 0.009000000000000001, 158, 0.011, 160, 0.012, 162, 0.013, 164, 0.01400000000000001, 166, 0.01500000000000001, 168, 0.01600000000000001, 170, 0.01700000000000001, 172, 0.01800000000000001, 174, 0.01900000000000001, 176, 0.02)
+		$begin 'DataMap'
+			VID=75
+			Ver=121
+			Field(DblID=46, Dir='DV75_SOL18_V121.Field46/')
+			Field(DblID=148, Dir='DV75_SOL18_V121.Field148/')
+			Field(DblID=48, Dir='DV75_SOL18_V121.Field48/')
+			Field(DblID=150, Dir='DV75_SOL18_V121.Field150/')
+			Field(DblID=50, Dir='DV75_SOL18_V121.Field50/')
+			Field(DblID=152, Dir='DV75_SOL18_V121.Field152/')
+			Field(DblID=52, Dir='DV75_SOL18_V121.Field52/')
+			Field(DblID=154, Dir='DV75_SOL18_V121.Field154/')
+			Field(DblID=54, Dir='DV75_SOL18_V121.Field54/')
+			Field(DblID=156, Dir='DV75_SOL18_V121.Field156/')
+			Field(DblID=56, Dir='DV75_SOL18_V121.Field56/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PD'
+		NextUniqueID=49
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=41
+			PD(VID=75, Ver=41, File='DV75_SOL18_PD0_V41.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=41
+			PD(VID=75, Ver=41, File='DV75_SOL18_PD1_V41.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			Ver=41
+			PD(VID=75, Ver=41, File='DV75_SOL18_PD7_V41.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=75, Ver=121, File='DV75_SOL18_NFSP10_V121.sd')
+		$end 'SubData'
+	$end 'NFSP'
+	$begin 'EngineSolutionData'
+		Data(VID=75, Ver=121, Dir='DV75_SOL18_V121.Data/')
+	$end 'EngineSolutionData'
+$end 'SolutionBlock10'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=884, lin=24, lvl=0)
+		SolutionBlock10(pos=2701, lin=73, lvl=0)
+		SolutionBlock11(pos=1166, lin=29, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=4601, lin=133, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                            

@@ -1,7 +1,7 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002020, month=000000000009, day=000000000016, hour=000000000002, min=000000000015, sec=000000000042)
+    time(year=000000002020, month=000000000009, day=000000000016, hour=000000000019, min=000000000006, sec=000000000017)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
@@ -43,7 +43,7 @@ $begin 'SolutionBlock83'
 		CenterFreq=0
 	$end 'Definition'
 	$begin 'PAR'
-		NextUniqueID=46
+		NextUniqueID=49
 		MoveBackwards=false
 		$begin 'SubData'
 			ID=1
@@ -281,7 +281,7 @@ $begin 'SolutionBlock84'
 		$end 'DataMap'
 	$end 'Fields'
 	$begin 'PAR'
-		NextUniqueID=55
+		NextUniqueID=58
 		MoveBackwards=false
 		$begin 'SubData'
 			ID=1
@@ -597,7 +597,7 @@ $begin 'SolutionBlock1'
 	VersionID=134
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=468
+	NextUniqueID=604
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='', ID=9)
@@ -689,6 +689,275 @@ $begin 'SolutionBlock1'
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock1'
+$begin 'SolutionBlock99'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0, 0)', p=1, ee=0, de=0, te=0)
+	c(tri=884, de_ee='(0.26724, 0)', p=2, ee=0.2672375436776548, de=0, te=23.06879112969652)
+$end 'SolutionBlock99'
+$begin 'SolutionBlock100'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.16135, N/A)', p=1, ee=0.1613481724880465, te=30.58553032541728)
+	c(tri=1142, de_ee='(0.043521, 0.47597)', p=2, ee=0.04352053638283061, de=0.4759721705391338, te=30.43995171285649)
+$end 'SolutionBlock100'
+$begin 'SolutionBlock101'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.084664, N/A)', p=1, ee=0.08466408486238361, te=71.96242689754226)
+	c(tri=1134, de_ee='(0.031092, 0.016151)', p=2, ee=0.03109176418775377, de=0.01615099924522008, te=71.95080424651719)
+$end 'SolutionBlock101'
+$begin 'SolutionBlock86'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.20347, N/A)', p=1, ee=0.2034659847093971, te=1262.388190677159)
+	c(tri=1134, de_ee='(0.033661, 0.28566)', p=2, ee=0.03366058734871356, de=0.2856608690869569, te=1265.994339753899)
+$end 'SolutionBlock86'
+$begin 'SolutionBlock80'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.25529, N/A)', p=1, ee=0.2552887313656638, te=19.54586121267432)
+	c(tri=1136, de_ee='(0.045145, 141.35)', p=2, ee=0.04514458507739195, de=141.3499390762456, te=47.173924128717)
+	c(tri=1498, de_ee='(0.01693, 0.033167)', p=3, ee=0.01693026880471813, de=0.03316695976532003, te=47.1582779722815)
+$end 'SolutionBlock80'
+$begin 'SolutionBlock52'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.25529, N/A)', p=1, ee=0.2552887313656643, te=0.001954586121267434)
+	c(tri=1136, de_ee='(0.039058, 1.003e+10)', p=2, ee=0.03905798443458067, de=10030336553.04829, te=196051.5681368824)
+	c(tri=1492, de_ee='(0.011837, 100)', p=3, ee=0.01183696667667638, de=99.9999989996364, te=0.001961228532061414)
+	c(tri=1946, de_ee='(0.0046265, 0.010672)', p=4, ee=0.004626467114937487, de=0.01067240073903655, te=0.001961437842229764)
+$end 'SolutionBlock52'
+$begin 'SolutionBlock73'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0, 0)', p=1, ee=0, de=0, te=0)
+	c(tri=884, de_ee='(0, 0)', p=2, ee=0, de=0, te=0)
+$end 'SolutionBlock73'
+$begin 'SolutionBlock74'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.25529, 2.84e-14)', p=1, ee=0.2552887313656644, de=2.840046321175257e-14, te=0.04886465303168577)
+	c(tri=1136, de_ee='(0.039058, 0.30337)', p=2, ee=0.03905798443458072, de=0.303366530483053, te=0.04901289203422058)
+$end 'SolutionBlock74'
+$begin 'SolutionBlock75'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.25529, N/A)', p=1, ee=0.2552887313656638, te=0.1954586121267433)
+	c(tri=1136, de_ee='(0.039058, 0.30337)', p=2, ee=0.03905798443458072, de=0.3033665304829817, te=0.1960515681368824)
+$end 'SolutionBlock75'
+$begin 'SolutionBlock85'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.21342, N/A)', p=1, ee=0.2134182457884956, te=1962.617731143114)
+	c(tri=1134, de_ee='(0.034462, 0.29234)', p=2, ee=0.03446237957353626, de=0.2923403432347014, te=1968.355254554723)
+$end 'SolutionBlock85'
+$begin 'SolutionBlock87'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.15824, N/A)', p=1, ee=0.158238936759149, te=331.7824373958857)
+	c(tri=1164, de_ee='(0.028258, 0.24189)', p=2, ee=0.02825802647124244, de=0.2418869746814418, te=332.584975896227)
+$end 'SolutionBlock87'
+$begin 'SolutionBlock98'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.20019, N/A)', p=1, ee=0.2001855790256617, te=1111.82199126902)
+	c(tri=1134, de_ee='(0.033417, 0.28315)', p=2, ee=0.0334167170994068, de=0.283147783794175, te=1114.970090597034)
+$end 'SolutionBlock98'
+$begin 'SolutionBlock97'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.19646, N/A)', p=1, ee=0.19646350926001, te=971.0472977144306)
+	c(tri=1134, de_ee='(0.033015, 0.28042)', p=2, ee=0.03301519420711107, de=0.2804204383389711, te=973.7703128031601)
+$end 'SolutionBlock97'
+$begin 'SolutionBlock96'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.1922, N/A)', p=1, ee=0.1922044013495167, te=840.0583536532481)
+	c(tri=1134, de_ee='(0.032601, 0.27685)', p=2, ee=0.03260085892288386, de=0.2768475381495434, te=842.3840345243567)
+$end 'SolutionBlock96'
+$begin 'SolutionBlock95'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.18731, N/A)', p=1, ee=0.1873088943294452, te=718.8492749969158)
+	c(tri=1134, de_ee='(0.032076, 0.27307)', p=2, ee=0.03207580232876386, de=0.2730713406713176, te=720.8122463495559)
+$end 'SolutionBlock95'
+$begin 'SolutionBlock94'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.18168, N/A)', p=1, ee=0.1816798191660337, te=607.4157605182141)
+	c(tri=1134, de_ee='(0.031487, 0.26838)', p=2, ee=0.03148663286670537, de=0.26838446699207, te=609.0459700695068)
+$end 'SolutionBlock94'
+$begin 'SolutionBlock93'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.17513, N/A)', p=1, ee=0.1751341745525964, te=505.7576950208902)
+	c(tri=1134, de_ee='(0.030837, 0.26204)', p=2, ee=0.03083748868920007, de=0.2620421707547902, te=507.0829934636823)
+$end 'SolutionBlock93'
+$begin 'SolutionBlock92'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.16745, N/A)', p=1, ee=0.1674523071791874, te=413.8780403242254)
+	c(tri=1134, de_ee='(0.029929, 0.25274)', p=2, ee=0.02992936841446624, de=0.2527409955324072, te=414.9240798036309)
+$end 'SolutionBlock92'
+$begin 'SolutionBlock91'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.14714, N/A)', p=1, ee=0.1471424321539738, te=259.4992687623245)
+	c(tri=1156, de_ee='(0.027861, 0.22252)', p=2, ee=0.02786064302420517, de=0.2225150641401835, te=260.0766937266543)
+$end 'SolutionBlock91'
+$begin 'SolutionBlock90'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.13381, N/A)', p=1, ee=0.1338079133823578, te=197.1467682551304)
+	c(tri=1148, de_ee='(0.027211, 0.19575)', p=2, ee=0.02721107806305297, de=0.1957501783094757, te=197.5326834055212)
+$end 'SolutionBlock90'
+$begin 'SolutionBlock89'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.11776, N/A)', p=1, ee=0.1177591779401698, te=145.4548427059664)
+	c(tri=1158, de_ee='(0.028384, 0.14921)', p=2, ee=0.02838415945629734, de=0.1492138578432141, te=145.6718814881878)
+$end 'SolutionBlock89'
+$begin 'SolutionBlock88'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.099546, N/A)', p=1, ee=0.09954614698435996, te=104.2331070917329)
+	c(tri=1144, de_ee='(0.029186, 0.084183)', p=2, ee=0.02918576481816184, de=0.08418340906896211, te=104.3208540746612)
+$end 'SolutionBlock88'
+$begin 'OptimetricsResults'
+	'2:0'='OptimetricsResult1'
+$end 'OptimetricsResults'
+$begin 'SolutionBlock105'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.5378, N/A)', p=1, ee=0.5377964409446717, te=25.47216427469676)
+	c(tri=1138, de_ee='(0.070227, 0.63292)', p=2, ee=0.07022736868819322, de=0.6329206465665438, te=25.31094568787486)
+$end 'SolutionBlock105'
+$begin 'SolutionBlock104'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.58084, N/A)', p=1, ee=0.5808373607641129, te=37.54793112310183)
+	c(tri=1148, de_ee='(0.065445, 0.3345)', p=2, ee=0.0654452228570607, de=0.3344954928465374, te=37.42233498583793)
+$end 'SolutionBlock104'
+$begin 'SolutionBlock103'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.54568, N/A)', p=1, ee=0.5456845369776188, te=59.39223671391696)
+	c(tri=1144, de_ee='(0.072245, 0.095441)', p=2, ee=0.07224548930993828, de=0.09544092514700706, te=59.3355522137317)
+$end 'SolutionBlock103'
+$begin 'SolutionBlock102'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=830, de_ee='(0.49998, N/A)', p=1, ee=0.4999755873940617, te=91.0065555884414)
+	c(tri=1158, de_ee='(0.064023, 0.044385)', p=2, ee=0.06402312603376728, de=0.04438460968663185, te=91.04694849292858)
+$end 'SolutionBlock102'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
 $begin 'OptimetricsResult1'
 	V=2
 	vi('I', '40kA', '40kA', '40kA')
@@ -737,275 +1006,6 @@ $begin 'OptimetricsResult1'
 	var(8.000000000000000e+04)
 	gvs(8.000000000000000e+04)
 $end 'OptimetricsResult1'
-$begin 'ResponseSurfaceCache'
-	ResponseSurfaceCache()
-$end 'ResponseSurfaceCache'
-$begin 'SolutionBlock102'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.49998, N/A)', p=1, ee=0.4999755873940617, te=91.0065555884414)
-	c(tri=1158, de_ee='(0.064023, 0.044385)', p=2, ee=0.06402312603376728, de=0.04438460968663185, te=91.04694849292858)
-$end 'SolutionBlock102'
-$begin 'SolutionBlock103'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.54568, N/A)', p=1, ee=0.5456845369776188, te=59.39223671391696)
-	c(tri=1144, de_ee='(0.072245, 0.095441)', p=2, ee=0.07224548930993828, de=0.09544092514700706, te=59.3355522137317)
-$end 'SolutionBlock103'
-$begin 'SolutionBlock104'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.58084, N/A)', p=1, ee=0.5808373607641129, te=37.54793112310183)
-	c(tri=1148, de_ee='(0.065445, 0.3345)', p=2, ee=0.0654452228570607, de=0.3344954928465374, te=37.42233498583793)
-$end 'SolutionBlock104'
-$begin 'SolutionBlock105'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.5378, N/A)', p=1, ee=0.5377964409446717, te=25.47216427469676)
-	c(tri=1138, de_ee='(0.070227, 0.63292)', p=2, ee=0.07022736868819322, de=0.6329206465665438, te=25.31094568787486)
-$end 'SolutionBlock105'
-$begin 'OptimetricsResults'
-	'2:0'='OptimetricsResult1'
-$end 'OptimetricsResults'
-$begin 'SolutionBlock88'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.099546, N/A)', p=1, ee=0.09954614698435996, te=104.2331070917329)
-	c(tri=1144, de_ee='(0.029186, 0.084183)', p=2, ee=0.02918576481816184, de=0.08418340906896211, te=104.3208540746612)
-$end 'SolutionBlock88'
-$begin 'SolutionBlock89'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.11776, N/A)', p=1, ee=0.1177591779401698, te=145.4548427059664)
-	c(tri=1158, de_ee='(0.028384, 0.14921)', p=2, ee=0.02838415945629734, de=0.1492138578432141, te=145.6718814881878)
-$end 'SolutionBlock89'
-$begin 'SolutionBlock90'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.13381, N/A)', p=1, ee=0.1338079133823578, te=197.1467682551304)
-	c(tri=1148, de_ee='(0.027211, 0.19575)', p=2, ee=0.02721107806305297, de=0.1957501783094757, te=197.5326834055212)
-$end 'SolutionBlock90'
-$begin 'SolutionBlock91'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.14714, N/A)', p=1, ee=0.1471424321539738, te=259.4992687623245)
-	c(tri=1156, de_ee='(0.027861, 0.22252)', p=2, ee=0.02786064302420517, de=0.2225150641401835, te=260.0766937266543)
-$end 'SolutionBlock91'
-$begin 'SolutionBlock92'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.16745, N/A)', p=1, ee=0.1674523071791874, te=413.8780403242254)
-	c(tri=1134, de_ee='(0.029929, 0.25274)', p=2, ee=0.02992936841446624, de=0.2527409955324072, te=414.9240798036309)
-$end 'SolutionBlock92'
-$begin 'SolutionBlock93'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.17513, N/A)', p=1, ee=0.1751341745525964, te=505.7576950208902)
-	c(tri=1134, de_ee='(0.030837, 0.26204)', p=2, ee=0.03083748868920007, de=0.2620421707547902, te=507.0829934636823)
-$end 'SolutionBlock93'
-$begin 'SolutionBlock94'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.18168, N/A)', p=1, ee=0.1816798191660337, te=607.4157605182141)
-	c(tri=1134, de_ee='(0.031487, 0.26838)', p=2, ee=0.03148663286670537, de=0.26838446699207, te=609.0459700695068)
-$end 'SolutionBlock94'
-$begin 'SolutionBlock95'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.18731, N/A)', p=1, ee=0.1873088943294452, te=718.8492749969158)
-	c(tri=1134, de_ee='(0.032076, 0.27307)', p=2, ee=0.03207580232876386, de=0.2730713406713176, te=720.8122463495559)
-$end 'SolutionBlock95'
-$begin 'SolutionBlock96'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.1922, N/A)', p=1, ee=0.1922044013495167, te=840.0583536532481)
-	c(tri=1134, de_ee='(0.032601, 0.27685)', p=2, ee=0.03260085892288386, de=0.2768475381495434, te=842.3840345243567)
-$end 'SolutionBlock96'
-$begin 'SolutionBlock97'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.19646, N/A)', p=1, ee=0.19646350926001, te=971.0472977144306)
-	c(tri=1134, de_ee='(0.033015, 0.28042)', p=2, ee=0.03301519420711107, de=0.2804204383389711, te=973.7703128031601)
-$end 'SolutionBlock97'
-$begin 'SolutionBlock98'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.20019, N/A)', p=1, ee=0.2001855790256617, te=1111.82199126902)
-	c(tri=1134, de_ee='(0.033417, 0.28315)', p=2, ee=0.0334167170994068, de=0.283147783794175, te=1114.970090597034)
-$end 'SolutionBlock98'
-$begin 'SolutionBlock87'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.15824, N/A)', p=1, ee=0.158238936759149, te=331.7824373958857)
-	c(tri=1164, de_ee='(0.028258, 0.24189)', p=2, ee=0.02825802647124244, de=0.2418869746814418, te=332.584975896227)
-$end 'SolutionBlock87'
-$begin 'SolutionBlock85'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.21342, N/A)', p=1, ee=0.2134182457884956, te=1962.617731143114)
-	c(tri=1134, de_ee='(0.034462, 0.29234)', p=2, ee=0.03446237957353626, de=0.2923403432347014, te=1968.355254554723)
-$end 'SolutionBlock85'
-$begin 'SolutionBlock75'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.25529, N/A)', p=1, ee=0.2552887313656638, te=0.1954586121267433)
-	c(tri=1136, de_ee='(0.039058, 0.30337)', p=2, ee=0.03905798443458072, de=0.3033665304829817, te=0.1960515681368824)
-$end 'SolutionBlock75'
-$begin 'SolutionBlock74'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.25529, 2.84e-14)', p=1, ee=0.2552887313656644, de=2.840046321175257e-14, te=0.04886465303168577)
-	c(tri=1136, de_ee='(0.039058, 0.30337)', p=2, ee=0.03905798443458072, de=0.303366530483053, te=0.04901289203422058)
-$end 'SolutionBlock74'
-$begin 'SolutionBlock73'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0, 0)', p=1, ee=0, de=0, te=0)
-	c(tri=884, de_ee='(0, 0)', p=2, ee=0, de=0, te=0)
-$end 'SolutionBlock73'
-$begin 'SolutionBlock52'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.25529, N/A)', p=1, ee=0.2552887313656643, te=0.001954586121267434)
-	c(tri=1136, de_ee='(0.039058, 1.003e+10)', p=2, ee=0.03905798443458067, de=10030336553.04829, te=196051.5681368824)
-	c(tri=1492, de_ee='(0.011837, 100)', p=3, ee=0.01183696667667638, de=99.9999989996364, te=0.001961228532061414)
-	c(tri=1946, de_ee='(0.0046265, 0.010672)', p=4, ee=0.004626467114937487, de=0.01067240073903655, te=0.001961437842229764)
-$end 'SolutionBlock52'
-$begin 'SolutionBlock80'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.25529, N/A)', p=1, ee=0.2552887313656638, te=19.54586121267432)
-	c(tri=1136, de_ee='(0.045145, 141.35)', p=2, ee=0.04514458507739195, de=141.3499390762456, te=47.173924128717)
-	c(tri=1498, de_ee='(0.01693, 0.033167)', p=3, ee=0.01693026880471813, de=0.03316695976532003, te=47.1582779722815)
-$end 'SolutionBlock80'
-$begin 'SolutionBlock86'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.20347, N/A)', p=1, ee=0.2034659847093971, te=1262.388190677159)
-	c(tri=1134, de_ee='(0.033661, 0.28566)', p=2, ee=0.03366058734871356, de=0.2856608690869569, te=1265.994339753899)
-$end 'SolutionBlock86'
-$begin 'SolutionBlock101'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.084664, N/A)', p=1, ee=0.08466408486238361, te=71.96242689754226)
-	c(tri=1134, de_ee='(0.031092, 0.016151)', p=2, ee=0.03109176418775377, de=0.01615099924522008, te=71.95080424651719)
-$end 'SolutionBlock101'
-$begin 'SolutionBlock100'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0.16135, N/A)', p=1, ee=0.1613481724880465, te=30.58553032541728)
-	c(tri=1142, de_ee='(0.043521, 0.47597)', p=2, ee=0.04352053638283061, de=0.4759721705391338, te=30.43995171285649)
-$end 'SolutionBlock100'
-$begin 'SolutionBlock99'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(tri=830, de_ee='(0, 0)', p=1, ee=0, de=0, te=0)
-	c(tri=884, de_ee='(0.26724, 0)', p=2, ee=0.2672375436776548, de=0, te=23.06879112969652)
-$end 'SolutionBlock99'
 $begin 'SolutionBlock43'
 	ConvSetupName='eConv'
 	MaxPasses='10'
@@ -1024,35 +1024,35 @@ $begin '$index$'
 		SolutionBlock84(pos=6956, lin=126, lvl=0)
 		SolutionBlock40(pos=11467, lin=304, lvl=0)
 		SolutionBlock1(pos=20456, lin=584, lvl=0)
-		OptimetricsResult1(pos=24128, lin=682, lvl=0)
-		ResponseSurfaceCache(pos=25425, lin=730, lvl=0)
-		SolutionBlock102(pos=25507, lin=733, lvl=0)
-		SolutionBlock103(pos=25896, lin=743, lvl=0)
-		SolutionBlock104(pos=26285, lin=753, lvl=0)
-		SolutionBlock105(pos=26671, lin=763, lvl=0)
-		OptimetricsResults(pos=27058, lin=773, lvl=0)
-		SolutionBlock88(pos=27140, lin=776, lvl=0)
-		SolutionBlock89(pos=27530, lin=786, lvl=0)
-		SolutionBlock90(pos=27916, lin=796, lvl=0)
-		SolutionBlock91(pos=28302, lin=806, lvl=0)
-		SolutionBlock92(pos=28688, lin=816, lvl=0)
-		SolutionBlock93(pos=29074, lin=826, lvl=0)
-		SolutionBlock94(pos=29460, lin=836, lvl=0)
-		SolutionBlock95(pos=29844, lin=846, lvl=0)
-		SolutionBlock96(pos=30230, lin=856, lvl=0)
-		SolutionBlock97(pos=30615, lin=866, lvl=0)
-		SolutionBlock98(pos=30999, lin=876, lvl=0)
-		SolutionBlock87(pos=31382, lin=886, lvl=0)
-		SolutionBlock85(pos=31766, lin=896, lvl=0)
-		SolutionBlock75(pos=32152, lin=906, lvl=0)
-		SolutionBlock74(pos=32540, lin=916, lvl=0)
-		SolutionBlock73(pos=32960, lin=926, lvl=0)
-		SolutionBlock52(pos=33246, lin=936, lvl=0)
-		SolutionBlock80(pos=33872, lin=948, lvl=0)
-		SolutionBlock86(pos=34370, lin=959, lvl=0)
-		SolutionBlock101(pos=34756, lin=969, lvl=0)
-		SolutionBlock100(pos=35148, lin=979, lvl=0)
-		SolutionBlock99(pos=35536, lin=989, lvl=0)
+		SolutionBlock99(pos=24128, lin=682, lvl=0)
+		SolutionBlock100(pos=24453, lin=692, lvl=0)
+		SolutionBlock101(pos=24841, lin=702, lvl=0)
+		SolutionBlock86(pos=25233, lin=712, lvl=0)
+		SolutionBlock80(pos=25619, lin=722, lvl=0)
+		SolutionBlock52(pos=26117, lin=733, lvl=0)
+		SolutionBlock73(pos=26743, lin=745, lvl=0)
+		SolutionBlock74(pos=27029, lin=755, lvl=0)
+		SolutionBlock75(pos=27449, lin=765, lvl=0)
+		SolutionBlock85(pos=27837, lin=775, lvl=0)
+		SolutionBlock87(pos=28223, lin=785, lvl=0)
+		SolutionBlock98(pos=28607, lin=795, lvl=0)
+		SolutionBlock97(pos=28990, lin=805, lvl=0)
+		SolutionBlock96(pos=29374, lin=815, lvl=0)
+		SolutionBlock95(pos=29759, lin=825, lvl=0)
+		SolutionBlock94(pos=30145, lin=835, lvl=0)
+		SolutionBlock93(pos=30529, lin=845, lvl=0)
+		SolutionBlock92(pos=30915, lin=855, lvl=0)
+		SolutionBlock91(pos=31301, lin=865, lvl=0)
+		SolutionBlock90(pos=31687, lin=875, lvl=0)
+		SolutionBlock89(pos=32073, lin=885, lvl=0)
+		SolutionBlock88(pos=32459, lin=895, lvl=0)
+		OptimetricsResults(pos=32849, lin=905, lvl=0)
+		SolutionBlock105(pos=32931, lin=908, lvl=0)
+		SolutionBlock104(pos=33318, lin=918, lvl=0)
+		SolutionBlock103(pos=33704, lin=928, lvl=0)
+		SolutionBlock102(pos=34093, lin=938, lvl=0)
+		ResponseSurfaceCache(pos=34482, lin=948, lvl=0)
+		OptimetricsResult1(pos=34564, lin=951, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
 		$index$(pos=36245, lin=1009, lvl=0)
 	$end '$index$'
