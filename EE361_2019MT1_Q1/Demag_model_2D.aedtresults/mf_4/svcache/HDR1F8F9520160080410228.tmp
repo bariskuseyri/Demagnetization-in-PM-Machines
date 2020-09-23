@@ -1,0 +1,157 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=11
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='Flux_Lines'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='B_y'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='H_y'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='Area(c_core1)'
+			ValueState(235, 35, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='Mag_B'
+			ValueState(103, 16, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='Mag_H'
+			ValueState(329, 55, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='Mag_Displacement'
+			ValueState(36, 5, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=7
+		$begin 'SimValueParams'
+			QuantityName='Temperature'
+			ValueState(80, 11, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=8
+		$begin 'SimValueParams'
+			QuantityName='appEnergy'
+			ValueState(809, 159, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=9
+		$begin 'SimValueParams'
+			QuantityName='energy'
+			ValueState(809, 159, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=10
+		$begin 'SimValueParams'
+			QuantityName='Jz'
+			ValueState(313, 50, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=4
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=47
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=48
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 122, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=241
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'2mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643104.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'2.5mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643105.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'3mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643106.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'3.5mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643107.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'4mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643108.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'4.5mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643109.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'5mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643110.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'5.5mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643111.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='h_m=\'5mm\' l_g=\'6mm\' l_m=\'5.7400000000000002mm\''
+							MinorCacheFile='min639C120121600869643112.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 122, 1, 0, 1, 1, '', 0, 0, 'ExpressionCache', false, '1', 'PC', false, '1')
+					$end 'ReportTypeSolnDef'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'
