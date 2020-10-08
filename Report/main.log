@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.6.29)  15 SEP 2020 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.6.29)  24 SEP 2020 13:33
 entering extended mode
 **./main.tex
 (main.tex
@@ -756,97 +756,98 @@ Package pdftex.def Info: images/math_operators1.png  used on input line 153.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3 <./images/Bfield_vacuumvsferromag1.png>]
-Nath Warning: No label in equation (13) on input line 173.
-Nath Warning: No label in equation (14) on input line 175.
-Nath Warning: No label in equation (15) on input line 177.
-Nath Warning: No label in equation (16) on input line 185.
-
-LaTeX Warning: Citation 'Pyrhonen' on page 4 undefined on input line 187.
-
+Nath Warning: No label in equation (13) on input line 174.
+Nath Warning: No label in equation (14) on input line 176.
+Nath Warning: No label in equation (15) on input line 178.
+Nath Warning: No label in equation (16) on input line 186.
 [4 <./images/magneticDipole.png> <./images/math_operators1.png>]
-Nath Warning: No label in equation (17) on input line 190.
-Nath Warning: No label in equation (18) on input line 193.
-Nath Warning: No label in equation (19) on input line 202.
-Nath Warning: No label in equation (20) on input line 205.
-Nath Warning: No label in equation (21) on input line 208.
-Nath Warning: No label in equation (23) on input line 224.
+
+LaTeX Warning: Citation 'Pyrhonen' on page 5 undefined on input line 188.
+
+Nath Warning: No label in equation (17) on input line 191.
+Nath Warning: No label in equation (18) on input line 194.
+Nath Warning: No label in equation (19) on input line 203.
+Nath Warning: No label in equation (20) on input line 206.
+Nath Warning: No label in equation (21) on input line 209.
+Nath Warning: No label in equation (23) on input line 225.
 
 Package caption Warning: \label without proper reference on input line 263.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:strcurrentB' on page 5 undefined on input line 23
-3.
+4.
 
-Nath Warning: No label in equation (24) on input line 237.
-Nath Warning: No label in equation (25) on input line 241.
-Nath Warning: No label in equation (26) on input line 247.
-Nath Warning: No label in equation (27) on input line 253.
+Nath Warning: No label in equation (24) on input line 238.
+Nath Warning: No label in equation (25) on input line 242.
+Nath Warning: No label in equation (26) on input line 248.
+Nath Warning: No label in equation (27) on input line 254.
 
 LaTeX Warning: Citation 'ohandley_modern_2000' on page 5 undefined on input lin
-e 255.
+e 256.
 
-<images/oersted2.png, id=32, 377.41pt x 126.97438pt>
+[5]
+<images/oersted2.png, id=35, 377.41pt x 126.97438pt>
 File: images/oersted2.png Graphic file (type png)
 <use images/oersted2.png>
-Package pdftex.def Info: images/oersted2.png  used on input line 262.
+Package pdftex.def Info: images/oersted2.png  used on input line 263.
 (pdftex.def)             Requested size: 320.09349pt x 107.69041pt.
-[5]
-Nath Warning: No label in equation (28) on input line 267.
-Nath Warning: No label in equation (29) on input line 268.
-Nath Warning: No label in equation (30) on input line 270.
-Nath Warning: No label in equation (31) on input line 273.
-Nath Warning: No label in equation (32) on input line 274.
-Nath Warning: No label in equation (33) on input line 275.
-Nath Warning: No label in equation (34) on input line 276.
-Nath Warning: No label in equation (35) on input line 278.
-Nath Warning: No label in equation (36) on input line 281.
-Nath Warning: No label in equation (37) on input line 282.
-Nath Warning: No label in equation (38) on input line 284.
+
+Nath Warning: No label in equation (28) on input line 268.
+Nath Warning: No label in equation (29) on input line 269.
+Nath Warning: No label in equation (30) on input line 271.
+Nath Warning: No label in equation (31) on input line 274.
+Nath Warning: No label in equation (32) on input line 275.
+Nath Warning: No label in equation (33) on input line 276.
+Nath Warning: No label in equation (34) on input line 277.
+Nath Warning: No label in equation (35) on input line 279.
+Nath Warning: No label in equation (36) on input line 282.
+Nath Warning: No label in equation (37) on input line 283.
+Nath Warning: No label in equation (38) on input line 285.
 
 Package caption Warning: \label without proper reference on input line 296.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:coilfield1' on page 6 undefined on input line 292
+LaTeX Warning: Reference `fig:coilfield1' on page 6 undefined on input line 293
 .
 
 <images/coilfield1.png, id=36, 169.13188pt x 65.24374pt>
 File: images/coilfield1.png Graphic file (type png)
 <use images/coilfield1.png>
-Package pdftex.def Info: images/coilfield1.png  used on input line 295.
+Package pdftex.def Info: images/coilfield1.png  used on input line 296.
 (pdftex.def)             Requested size: 106.69783pt x 41.1605pt.
-Nath Warning: No label in equation (39) on input line 301.
-Nath Warning: No label in equation (40) on input line 306.
+Nath Warning: No label in equation (39) on input line 302.
+Nath Warning: No label in equation (40) on input line 307.
 [6 <./images/oersted2.png> <./images/coilfield1.png>]
-Nath Warning: No label in equation (41) on input line 310.
-Nath Warning: No label in equation (42) on input line 313.
-Nath Warning: No label in equation (43) on input line 322.
-Nath Warning: No label in equation (44) on input line 324.
-Nath Warning: No label in equation (45) on input line 329.
-Nath Warning: No label in equation (46) on input line 331.
-Nath Warning: No label in equation (47) on input line 341.
-Nath Warning: No label in equation (48) on input line 342.
-Nath Warning: No label in equation (49) on input line 344.
-Nath Warning: No label in equation (50) on input line 349.
-Nath Warning: No label in equation (51) on input line 351.
-Nath Warning: No label in equation (52) on input line 364.
+Nath Warning: No label in equation (41) on input line 311.
+Nath Warning: No label in equation (42) on input line 314.
+Nath Warning: No label in equation (43) on input line 323.
+Nath Warning: No label in equation (44) on input line 325.
+Nath Warning: No label in equation (45) on input line 330.
+Nath Warning: No label in equation (46) on input line 332.
+Nath Warning: No label in equation (47) on input line 342.
+Nath Warning: No label in equation (48) on input line 343.
+Nath Warning: No label in equation (49) on input line 345.
+Nath Warning: No label in equation (50) on input line 350.
+Nath Warning: No label in equation (51) on input line 352.
+Nath Warning: No label in equation (52) on input line 365.
 [7]
-Nath Warning: No label in equation (53) on input line 374.
+Nath Warning: No label in equation (53) on input line 375.
 
-LaTeX Warning: Citation 'O'Handley' on page 8 undefined on input line 381.
+LaTeX Warning: Citation 'O'Handley' on page 8 undefined on input line 382.
 
 <images/curie_temperature1.png, id=45, 413.545pt x 176.66pt>
 File: images/curie_temperature1.png Graphic file (type png)
 <use images/curie_temperature1.png>
-Package pdftex.def Info: images/curie_temperature1.png  used on input line 386.
+Package pdftex.def Info: images/curie_temperature1.png  used on input line 387.
 
 (pdftex.def)             Requested size: 320.09349pt x 136.74295pt.
 <images/BH_loops_magneticdomains1.png, id=46, 372.89313pt x 192.21812pt>
 File: images/BH_loops_magneticdomains1.png Graphic file (type png)
 <use images/BH_loops_magneticdomains1.png>
 Package pdftex.def Info: images/BH_loops_magneticdomains1.png  used on input li
-ne 404.
+ne 405.
 (pdftex.def)             Requested size: 320.09349pt x 165.0081pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -855,14 +856,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/barkhausen1.png, id=50, 343.2825pt x 240.39813pt>
 File: images/barkhausen1.png Graphic file (type png)
 <use images/barkhausen1.png>
-Package pdftex.def Info: images/barkhausen1.png  used on input line 414.
+Package pdftex.def Info: images/barkhausen1.png  used on input line 415.
 (pdftex.def)             Requested size: 149.37956pt x 104.60901pt.
  [9 <./images/BH_loops_magneticdomains1.png> <./images/barkhausen1.png>]
-Nath Warning: No label in equation (54) on input line 440.
+Nath Warning: No label in equation (54) on input line 441.
 <images/demagnetizingField1.png, id=54, 385.94188pt x 210.28563pt>
 File: images/demagnetizingField1.png Graphic file (type png)
 <use images/demagnetizingField1.png>
-Package pdftex.def Info: images/demagnetizingField1.png  used on input line 448
+Package pdftex.def Info: images/demagnetizingField1.png  used on input line 449
 .
 (pdftex.def)             Requested size: 362.77524pt x 197.6621pt.
 
@@ -871,7 +872,7 @@ See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:demagnetizingField1' on page 10 undefined on inpu
-t line 452.
+t line 453.
 
 ) (chapters/pyrhonen.tex
 
@@ -888,6 +889,9 @@ File: images/domains_walls.png Graphic file (type png)
 Package pdftex.def Info: images/domains_walls.png  used on input line 8.
 (pdftex.def)             Requested size: 149.37956pt x 89.30748pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Package caption Warning: \label without proper reference on input line 29.
 See the caption package documentation for explanation.
 
@@ -895,7 +899,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:magnetization1' on page 10 undefined on input lin
 e 12.
 
-[10 <./images/demagnetizingField1.png> <./images/domains_walls.png>]
+[10 <./images/demagnetizingField1.png>]
 <images/magnetization1.png, id=59, 489.83pt x 210.28563pt>
 File: images/magnetization1.png Graphic file (type png)
 <use images/magnetization1.png>
@@ -909,16 +913,16 @@ Package pdftex.def Info: images/magnetization2.png  used on input line 34.
 
 Nath Warning: No label in equation (55) on input line 47.
 Nath Warning: No label in equation (56) on input line 53.
+[11 <./images/domains_walls.png> <./images/magnetization1.png> <./images/magnet
+ization2.png>]
 Nath Warning: No label in equation (57) on input line 57.
 Nath Warning: No label in equation (58) on input line 61.
 Nath Warning: No label in equation (59) on input line 64.
-[11 <./images/magnetization1.png> <./images/magnetization2.png>]
 <images/hysteresiscurve1.png, id=65, 472.26437pt x 208.27812pt>
 File: images/hysteresiscurve1.png Graphic file (type png)
 <use images/hysteresiscurve1.png>
 Package pdftex.def Info: images/hysteresiscurve1.png  used on input line 68.
 (pdftex.def)             Requested size: 149.37956pt x 65.87808pt.
-
 Nath Warning: No label in equation (60) on input line 79.
 Nath Warning: No label in equation (61) on input line 82.
 Nath Warning: No label in equation (62) on input line 97.
@@ -980,8 +984,9 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:vac677TP' on page 14 undefined on input line 177.
 
 
-) (chapters/appendix.tex
-<images/2ndquarter.png, id=76, 475.27562pt x 237.88875pt>
+) (chapters/feynman.tex [14 <./images/softHardMagCirc.png>])
+(chapters/mathematics.tex) (chapters/appendix.tex
+<images/2ndquarter.png, id=79, 475.27562pt x 237.88875pt>
 File: images/2ndquarter.png Graphic file (type png)
 <use images/2ndquarter.png>
 Package pdftex.def Info: images/2ndquarter.png  used on input line 6.
@@ -991,7 +996,7 @@ Package pdftex.def Info: images/2ndquarter.png  used on input line 6.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Nath Warning: No label in equation (66) on input line 14.
-<images/vac677TP.png, id=77, 439.14063pt x 265.99374pt>
+<images/vac677TP.png, id=80, 439.14063pt x 265.99374pt>
 File: images/vac677TP.png Graphic file (type png)
 <use images/vac677TP.png>
 Package pdftex.def Info: images/vac677TP.png  used on input line 20.
@@ -1001,28 +1006,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Nath Warning: No label in equation (67) on input line 26.
 Nath Warning: No label in equation (68) on input line 32.
-[14 <./images/softHardMagCirc.png>]
 Nath Warning: No label in equation (69) on input line 37.
 Nath Warning: No label in equation (70) on input line 38.
 Nath Warning: No label in equation (71) on input line 39.
 Nath Warning: No label in equation (72) on input line 41.
+[15]
 
 Package caption Warning: \label without proper reference on input line 7.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:2ndquarter' on page 15 undefined on input line 43
+LaTeX Warning: Reference `fig:2ndquarter' on page 16 undefined on input line 43
 .
 
 Nath Warning: No label in equation (73) on input line 53.
-[15 <./images/2ndquarter.png> <./images/vac677TP.png>]) (chapters/questions.tex
-) [16]
+) (chapters/questions.tex [16 <./images/2ndquarter.png> <./images/vac677TP.png>
+]) [17]
 
-LaTeX Warning: Empty bibliography on input line 57.
+LaTeX Warning: Empty bibliography on input line 58.
 
 (main.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1034,33 +1042,34 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11417 strings out of 480790
- 206963 string characters out of 2893986
+ 11428 strings out of 480790
+ 207524 string characters out of 2893986
  846249 words of memory out of 3000000
- 27284 multiletter control sequences out of 15000+200000
- 537893 words of font info for 42 fonts, out of 3000000 for 9000
+ 27288 multiletter control sequences out of 15000+200000
+ 538233 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,26n,45p,1306b,1297s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\bkuseyri\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
-00\tcrm1000.pk><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bkuseyri/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/bkusey
-ri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi5.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bkuseyri/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bkuseyri/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
-Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr7.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/bkuseyri/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (16 pages, 1029169 bytes).
+00\tcbx1000.pk> <C:\Users\bkuseyri\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\tcrm1000.pk><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/bkuseyri/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bkuseyri/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi5.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/bkuseyri/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bkuseyri/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Us
+ers/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr17.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Users/bkuseyri/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/bkuseyri/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/bkuseyri/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (17 pages, 1034379 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 140 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

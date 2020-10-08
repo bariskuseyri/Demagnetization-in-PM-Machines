@@ -3,7 +3,7 @@ $begin 'AnsoftProject'
 	Product='ElectronicsDesktop'
 	FileOwnedByWorkbench=false
 	$begin 'Desktop'
-		Version(2020, 1)
+		Version(2020, 2)
 		InfrastructureVersion(1, 0)
 	$end 'Desktop'
 	UsesAdvancedFeatures=false
@@ -59,7 +59,7 @@ $begin 'AnsoftProject'
 	$begin 'geometry3deditor'
 		Version(1, 0)
 	$end 'geometry3deditor'
-	ReadVersion=7
+	ReadVersion=8
 	$begin 'DesignMgrEnvironment'
 		CompInstCounter=2
 		GPortCounter=0
@@ -774,874 +774,26 @@ $begin 'AnsoftProject'
 					TextProp('Owner', 'SRD', '', 'Maxwell 2D')
 				$end 'Properties'
 				CompExtID=6
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
 			$end 'Maxwell2DDesign1'
 		$end 'Compdefs'
 	$end 'Definitions'
 	DesignIDServer=38
 	MoveBackwards=false
-	$begin 'RMxprtDesign'
-		RepRewriteV2=true
-		Name='RMxprtDesign1'
-		DesignID=0
-		'Steel Threshold'=100
-		'Conductor Threshold'=100000
-		'Excel Template Path'=''
-		UDDEnabled=false
-		$begin 'OutputVariable'
-			NextUniqueID=0
-			MoveBackwards=false
-		$end 'OutputVariable'
-		$begin 'MachineSetup'
-			$begin 'DesignDatasets'
-				NextUniqueID=0
-				MoveBackwards=false
-				DatasetType='DesignDatasetType'
-				$begin 'DatasetDefinitions'
-				$end 'DatasetDefinitions'
-			$end 'DesignDatasets'
-			VariableOrders[0:]
-			'Machine Type'='Generic Rotating Machines'
-			'Solution Type'=1
-			Units='mm'
-			$begin 'Round Wire Data'
-				$begin '4/0'
-					Diameter='11.684mm'
-					Wrap='0mm'
-				$end '4/0'
-				$begin '3/0'
-					Diameter='10.404mm'
-					Wrap='0mm'
-				$end '3/0'
-				$begin '2/0'
-					Diameter='9.266mm'
-					Wrap='0mm'
-				$end '2/0'
-				$begin '1/0'
-					Diameter='8.252mm'
-					Wrap='0mm'
-				$end '1/0'
-				$begin '1/0.5'
-					Diameter='7.788mm'
-					Wrap='0mm'
-				$end '1/0.5'
-				$begin '1'
-					Diameter='7.348mm'
-					Wrap='0mm'
-				$end '1'
-				$begin '1.5'
-					Diameter='6.934mm'
-					Wrap='0mm'
-				$end '1.5'
-				$begin '2'
-					Diameter='6.543mm'
-					Wrap='0mm'
-				$end '2'
-				$begin '2.5'
-					Diameter='6.175mm'
-					Wrap='0mm'
-				$end '2.5'
-				$begin '3'
-					Diameter='5.827mm'
-					Wrap='0mm'
-				$end '3'
-				$begin '3.5'
-					Diameter='5.499mm'
-					Wrap='0mm'
-				$end '3.5'
-				$begin '4'
-					Diameter='5.189mm'
-					Wrap='0mm'
-				$end '4'
-				$begin '4.5'
-					Diameter='4.897mm'
-					Wrap='0mm'
-				$end '4.5'
-				$begin '5'
-					Diameter='4.62mm'
-					Wrap='0mm'
-				$end '5'
-				$begin '5.5'
-					Diameter='4.361mm'
-					Wrap='0mm'
-				$end '5.5'
-				$begin '6'
-					Diameter='4.115mm'
-					Wrap='0mm'
-				$end '6'
-				$begin '6.5'
-					Diameter='3.884mm'
-					Wrap='0mm'
-				$end '6.5'
-				$begin '7'
-					Diameter='3.665mm'
-					Wrap='0mm'
-				$end '7'
-				$begin '7.5'
-					Diameter='3.459mm'
-					Wrap='0mm'
-				$end '7.5'
-				$begin '8'
-					Diameter='3.264mm'
-					Wrap='0mm'
-				$end '8'
-				$begin '8.5'
-					Diameter='3.081mm'
-					Wrap='0mm'
-				$end '8.5'
-				$begin '9'
-					Diameter='2.906mm'
-					Wrap='0mm'
-				$end '9'
-				$begin '9.5'
-					Diameter='2.743mm'
-					Wrap='0mm'
-				$end '9.5'
-				$begin '10'
-					Diameter='2.588mm'
-					Wrap='0mm'
-				$end '10'
-				$begin '10.5'
-					Diameter='2.443mm'
-					Wrap='0mm'
-				$end '10.5'
-				$begin '11'
-					Diameter='2.304mm'
-					Wrap='0mm'
-				$end '11'
-				$begin '11.5'
-					Diameter='2.174mm'
-					Wrap='0mm'
-				$end '11.5'
-				$begin '12'
-					Diameter='2.052mm'
-					Wrap='0mm'
-				$end '12'
-				$begin '12.5'
-					Diameter='1.938mm'
-					Wrap='0mm'
-				$end '12.5'
-				$begin '13'
-					Diameter='1.829mm'
-					Wrap='0mm'
-				$end '13'
-				$begin '13.5'
-					Diameter='1.725mm'
-					Wrap='0mm'
-				$end '13.5'
-				$begin '14'
-					Diameter='1.628mm'
-					Wrap='0mm'
-				$end '14'
-				$begin '14.5'
-					Diameter='1.537mm'
-					Wrap='0mm'
-				$end '14.5'
-				$begin '15'
-					Diameter='1.45mm'
-					Wrap='0mm'
-				$end '15'
-				$begin '15.5'
-					Diameter='1.369mm'
-					Wrap='0mm'
-				$end '15.5'
-				$begin '16'
-					Diameter='1.29mm'
-					Wrap='0mm'
-				$end '16'
-				$begin '16.5'
-					Diameter='1.219mm'
-					Wrap='0mm'
-				$end '16.5'
-				$begin '17'
-					Diameter='1.151mm'
-					Wrap='0mm'
-				$end '17'
-				$begin '17.5'
-					Diameter='1.085mm'
-					Wrap='0mm'
-				$end '17.5'
-				$begin '18'
-					Diameter='1.024mm'
-					Wrap='0mm'
-				$end '18'
-				$begin '18.5'
-					Diameter='0.965mm'
-					Wrap='0mm'
-				$end '18.5'
-				$begin '19'
-					Diameter='0.912mm'
-					Wrap='0mm'
-				$end '19'
-				$begin '19.5'
-					Diameter='0.861mm'
-					Wrap='0mm'
-				$end '19.5'
-				$begin '20'
-					Diameter='0.813mm'
-					Wrap='0mm'
-				$end '20'
-				$begin '20.5'
-					Diameter='0.767mm'
-					Wrap='0mm'
-				$end '20.5'
-				$begin '21'
-					Diameter='0.724mm'
-					Wrap='0mm'
-				$end '21'
-				$begin '21.5'
-					Diameter='0.683mm'
-					Wrap='0mm'
-				$end '21.5'
-				$begin '22'
-					Diameter='0.643mm'
-					Wrap='0mm'
-				$end '22'
-				$begin '22.5'
-					Diameter='0.607mm'
-					Wrap='0mm'
-				$end '22.5'
-				$begin '23'
-					Diameter='0.574mm'
-					Wrap='0mm'
-				$end '23'
-				$begin '23.5'
-					Diameter='0.541mm'
-					Wrap='0mm'
-				$end '23.5'
-				$begin '24'
-					Diameter='0.511mm'
-					Wrap='0mm'
-				$end '24'
-				$begin '24.5'
-					Diameter='0.483mm'
-					Wrap='0mm'
-				$end '24.5'
-				$begin '25'
-					Diameter='0.455mm'
-					Wrap='0mm'
-				$end '25'
-				$begin '25.5'
-					Diameter='0.429mm'
-					Wrap='0mm'
-				$end '25.5'
-				$begin '26'
-					Diameter='0.404mm'
-					Wrap='0mm'
-				$end '26'
-				$begin '26.5'
-					Diameter='0.381mm'
-					Wrap='0mm'
-				$end '26.5'
-				$begin '27'
-					Diameter='0.361mm'
-					Wrap='0mm'
-				$end '27'
-				$begin '27.5'
-					Diameter='0.34mm'
-					Wrap='0mm'
-				$end '27.5'
-				$begin '28'
-					Diameter='0.32mm'
-					Wrap='0mm'
-				$end '28'
-				$begin '28.5'
-					Diameter='0.302mm'
-					Wrap='0mm'
-				$end '28.5'
-				$begin '29'
-					Diameter='0.287mm'
-					Wrap='0mm'
-				$end '29'
-				$begin '29.5'
-					Diameter='0.269mm'
-					Wrap='0mm'
-				$end '29.5'
-				$begin '30'
-					Diameter='0.254mm'
-					Wrap='0mm'
-				$end '30'
-				$begin '30.5'
-					Diameter='0.239mm'
-					Wrap='0mm'
-				$end '30.5'
-				$begin '31'
-					Diameter='0.226mm'
-					Wrap='0mm'
-				$end '31'
-				$begin '31.5'
-					Diameter='0.213mm'
-					Wrap='0mm'
-				$end '31.5'
-				$begin '32'
-					Diameter='0.203mm'
-					Wrap='0mm'
-				$end '32'
-				$begin '32.5'
-					Diameter='0.19mm'
-					Wrap='0mm'
-				$end '32.5'
-				$begin '33'
-					Diameter='0.18mm'
-					Wrap='0mm'
-				$end '33'
-				$begin '33.5'
-					Diameter='0.17mm'
-					Wrap='0mm'
-				$end '33.5'
-				$begin '34'
-					Diameter='0.16mm'
-					Wrap='0mm'
-				$end '34'
-				$begin '34.5'
-					Diameter='0.15mm'
-					Wrap='0mm'
-				$end '34.5'
-				$begin '35'
-					Diameter='0.142mm'
-					Wrap='0mm'
-				$end '35'
-				$begin '35.5'
-					Diameter='0.135mm'
-					Wrap='0mm'
-				$end '35.5'
-				$begin '36'
-					Diameter='0.127mm'
-					Wrap='0mm'
-				$end '36'
-				$begin '36.5'
-					Diameter='0.119mm'
-					Wrap='0mm'
-				$end '36.5'
-				$begin '37'
-					Diameter='0.114mm'
-					Wrap='0mm'
-				$end '37'
-				$begin '37.5'
-					Diameter='0.107mm'
-					Wrap='0mm'
-				$end '37.5'
-				$begin '38'
-					Diameter='0.102mm'
-					Wrap='0mm'
-				$end '38'
-				$begin '38.5'
-					Diameter='0.094mm'
-					Wrap='0mm'
-				$end '38.5'
-				$begin '39'
-					Diameter='0.089mm'
-					Wrap='0mm'
-				$end '39'
-				$begin '39.5'
-					Diameter='0.084mm'
-					Wrap='0mm'
-				$end '39.5'
-				$begin '40'
-					Diameter='0.079mm'
-					Wrap='0mm'
-				$end '40'
-				$begin '40.5'
-					Diameter='0.076mm'
-					Wrap='0mm'
-				$end '40.5'
-				$begin '41'
-					Diameter='0.071mm'
-					Wrap='0mm'
-				$end '41'
-				$begin '41.5'
-					Diameter='0.066mm'
-					Wrap='0mm'
-				$end '41.5'
-				$begin '42'
-					Diameter='0.064mm'
-					Wrap='0mm'
-				$end '42'
-				$begin '42.5'
-					Diameter='0.061mm'
-					Wrap='0mm'
-				$end '42.5'
-				$begin '43'
-					Diameter='0.056mm'
-					Wrap='0mm'
-				$end '43'
-				$begin '43.5'
-					Diameter='0.053mm'
-					Wrap='0mm'
-				$end '43.5'
-				$begin '44'
-					Diameter='0.051mm'
-					Wrap='0mm'
-				$end '44'
-				$begin '44.5'
-					Diameter='0.048mm'
-					Wrap='0mm'
-				$end '44.5'
-				$begin '45'
-					Diameter='0.0447mm'
-					Wrap='0mm'
-				$end '45'
-				$begin '46'
-					Diameter='0.0399mm'
-					Wrap='0mm'
-				$end '46'
-				$begin '47'
-					Diameter='0.0356mm'
-					Wrap='0mm'
-				$end '47'
-				$begin '48'
-					Diameter='0.0315mm'
-					Wrap='0mm'
-				$end '48'
-				$begin '49'
-					Diameter='0.0282mm'
-					Wrap='0mm'
-				$end '49'
-				$begin '50'
-					Diameter='0.0251mm'
-					Wrap='0mm'
-				$end '50'
-				$begin '51'
-					Diameter='0.0224mm'
-					Wrap='0mm'
-				$end '51'
-				$begin '52'
-					Diameter='0.0198mm'
-					Wrap='0mm'
-				$end '52'
-			$end 'Round Wire Data'
-			$begin 'Rectangle Wire Data'
-				'Max(B/A)'=13
-				'Min(B/A)'=1.1
-				SkipOne=true
-				$begin 'AR Data'
-					A='1.02mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.15mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.29mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.45mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.63mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.83mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='2.05mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='2.3mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='2.59mm'
-					ChamferRadius='0.67mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='2.91mm'
-					ChamferRadius='0.67mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='3.26mm'
-					ChamferRadius='0.8mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='3.66mm'
-					ChamferRadius='0.8mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='4.12mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='4.62mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='5.19mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='5.83mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='6.54mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'B Data'
-					B='2.05mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.18mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.3mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.44mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.59mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.74mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.91mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.08mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.26mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.46mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.66mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.88mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='4.12mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='4.36mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='4.62mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='4.9mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='5.19mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='5.5mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='5.83mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='6.18mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='6.54mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='6.93mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='7.35mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='7.79mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='8.25mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='8.74mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='9.27mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='9.82mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='10.4mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='11.03mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='11.68mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='12.38mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='13.12mm'
-				$end 'B Data'
-			$end 'Rectangle Wire Data'
-			NextUniqueID=15
-			MoveBackwards=false
-			$begin 'Machine'
-				DataType='General Data'
-				DataLevel=0
-				DataOrder=0
-				DataID=0
-				ParentID=-1
-				DataName='Machine'
-				RotorType=10
-				StatorType=0
-				SourceType=0
-				Structure=0
-				ImportRotor=0
-				ImportStator=0
-				StatorCenter=0
-				RotorCenter=0
-				ImportType=true
-				MasterSlaveOnXais=true
-				HalfModel=false
-				UseMinimumSetting=false
-				Fraction=0
-				ImportGeometryFile=''
-				ImportDesignName=''
-				AirGapLength='0mm'
-				DoubleSided=0
-			$end 'Machine'
-			$begin 'Stator'
-				DataType='Stator'
-				DataLevel=1
-				DataOrder=1
-				DataID=1
-				ParentID=-1
-				DataName='Stator'
-				DataType='Stator'
-				NumberOfPoles=10
-				NumberOfSlots=12
-				SlotType=2
-				CircuitType=0
-				PositionControl=false
-			$end 'Stator'
-			$begin 'Shaft'
-				DataType='Shaft'
-				DataLevel=1
-				DataOrder=3
-				DataID=9
-				ParentID=-1
-				DataName='Shaft'
-				MagneticShaft=true
-				FrictionLoss='0W'
-				WindLoss='0W'
-				ReferenceSpeed='3600rpm'
-			$end 'Shaft'
-			$begin 'Rotor'
-				DataType='Rotor'
-				DataLevel=1
-				DataOrder=2
-				DataID=10
-				ParentID=-1
-				DataName='Rotor'
-				DataType='Rotor'
-				NumberOfPoles=10
-			$end 'Rotor'
-			$begin 'Core'
-				DataType='Core'
-				DataLevel=2
-				DataOrder=1
-				DataID=2
-				ParentID=1
-				DataName='Core'
-				OuterDiameter='120mm'
-				InnerDiameter='75mm'
-				Length='65mm'
-				SteelType='M19_24G'
-				StackingFactor=0.95
-				LaminationSectors=0
-				PressBoardThickness='0mm'
-				MagneticPressBoard=false
-				SkewWidth='0deg'
-			$end 'Core'
-			$begin 'Winding'
-				DataType='Winding'
-				DataLevel=2
-				DataOrder=2
-				DataID=4
-				ParentID=1
-				DataName='Winding'
-				WindingType='Whole-Coiled'
-				WindingLayers='1'
-				InputHalfTurnLength=false
-				HalfTurnLength='0mm'
-				ParallelBranches=1
-				ConductorsPerSlot='52'
-				CoilPitch=5
-				EndAdjustment='0mm'
-				BaseInnerRadius='0mm'
-				TipInnerDiameter='0mm'
-				EndClearance='0mm'
-				CoilWrap='0mm'
-				SlotLiner='0.3mm'
-				WedgeThickness='0mm'
-				LayerInsulation='0mm'
-				BottomInsulation='0mm'
-				LimitedFillFactor='0.75'
-				WdgNumberofPriodicMultipler=1
-				WdgConstantPitch=false
-				WdgConstantTurns=false
-				Wdgcoil_turns[0:]
-				Wdgcoil_name[0:]
-				Wdgcoil_go[0:]
-				Wdgcoil_re[0:]
-				NumberOfStrands='1'
-				WireWrap='0mm'
-				InterturnInsulation='0mm'
-				WireDiameter='0mm'
-				WireWidth='0mm'
-				WireThickness='0mm'
-				Gauge='0'
-				IsRectWireType=false
-				MixedDiamter[0:]
-				MixedNumber[0:]
-				MixedWidth[0:]
-				MixedThickness[0:]
-				WireFillet[0:]
-				CorrectionFactor=1
-				TopSpareSpace=0
-				BottomSpareSpace=0
-				ConductorType='copper_75C'
-			$end 'Winding'
-			$begin 'Core'
-				DataType='Core'
-				DataLevel=2
-				DataOrder=1
-				DataID=11
-				ParentID=10
-				DataName='Core'
-				OuterDiameter='74mm'
-				InnerDiameter='26mm'
-				Length='65mm'
-				SteelType='M19_24G'
-				StackingFactor=0.95
-				PoleType=3
-			$end 'Core'
-			$begin 'Slot'
-				DataType='Slot'
-				DataLevel=3
-				DataOrder=1
-				DataID=3
-				ParentID=2
-				DataName='Slot'
-				Hs0='0.5mm'
-				Hs1='1mm'
-				Hs2='8.2mm'
-				Bs0='2.5mm'
-				Bs1='5.6mm'
-				Bs2='7.6mm'
-				Rs='0mm'
-				AutoDesign=false
-				ParallelTooth=false
-				ToothWidth='0mm'
-			$end 'Slot'
-			$begin 'Pole'
-				DataType='Pole'
-				DataLevel=3
-				DataOrder=1
-				DataID=12
-				ParentID=11
-				DataName='Pole'
-				D1='72mm'
-				O1='1mm'
-				O2='10mm'
-				B1='2mm'
-				Rib='2mm'
-				HRib='1mm'
-				Layers='1'
-				LayerPitch='0mm'
-				MagnetThickness='3mm'
-				MagnetWidth='20mm'
-				MagnetType='XG196/96'
-			$end 'Pole'
-		$end 'MachineSetup'
-		$begin 'ParameterSetup'
-		$end 'ParameterSetup'
-		$begin 'AnalysisSetup'
-			$begin 'SolveSetups'
-				NextUniqueID=1
-				MoveBackwards=false
-				$begin 'Setup1'
-					ID=0
-					SetupType='GRM'
-					Enabled=true
-					$begin 'MeshLink'
-						ImportMesh=false
-					$end 'MeshLink'
-					RatedOutputPower='0.55kW'
-					RatedVoltage='220V'
-					RatedSpeed='3600rpm'
-					OperatingTemperature='75cel'
-					OperationType='Motor'
-					LoadType='ConstPower'
-					RatedPowerFactor='0.8'
-					Frequency='60Hz'
-					CapacitivePowerFactor=false
-				$end 'Setup1'
-			$end 'SolveSetups'
-		$end 'AnalysisSetup'
-		$begin 'Optimetrics'
-			$begin 'OptimetricsSetups'
-				NextUniqueID=0
-				MoveBackwards=false
-			$end 'OptimetricsSetups'
-		$end 'Optimetrics'
-		$begin 'Solutions'
-		$end 'Solutions'
-		$begin 'SolutionManager'
-			$begin 'SimSetup'
-				TypeName='BaseSetup'
-				ID=38
-				Name='Setup1'
-				$begin 'Solution'
-					ID=39
-					Name='Performance'
-					$begin 'SimDataExtractor'
-						$begin 'QuantityIDs'
-							NextUniqueID=0
-							MoveBackwards=false
-							IDMap()
-						$end 'QuantityIDs'
-					$end 'SimDataExtractor'
-				$end 'Solution'
-			$end 'SimSetup'
-			$begin 'Version ID Map'
-				V=326
-				$begin 'Setup'
-					N='Setup1'
-					V=326
-					Soln(N='Performance', V=326)
-				$end 'Setup'
-			$end 'Version ID Map'
-			$begin 'ID Map'
-				$begin 'Setup'
-					N='Setup1'
-					I=38
-					Soln(N='Performance', I=39)
-				$end 'Setup'
-			$end 'ID Map'
-			ValidationCacheHeader=''
-		$end 'SolutionManager'
-		$begin 'UserDefinedSolutionMgr'
-			NextUniqueID=1000000
-			MoveBackwards=false
-		$end 'UserDefinedSolutionMgr'
-		$begin 'DatasetSolutionMgr'
-			NextUniqueID=2000000
-			MoveBackwards=false
-		$end 'DatasetSolutionMgr'
-		Notes=$begin_cdata$ $end_cdata$
-		$begin 'AnimationSetups'
-		$end 'AnimationSetups'
-		CacheHeaderFile='HDR3DC110428160068605738.tmp'
-	$end 'RMxprtDesign'
 	$begin 'Maxwell2DModel'
 		RepRewriteV2=true
 		Name='Maxwell2DDesign1'
@@ -2367,9 +1519,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"vacuum"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -2540,9 +1695,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"M19_24G_2DSF0.950"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -2713,9 +1871,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"vacuum"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -2835,9 +1996,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"M19_24G_2DSF0.950"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -6704,9 +5868,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7001,9 +6168,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7114,9 +6284,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7227,9 +6400,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7340,9 +6516,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7453,9 +6632,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7566,9 +6748,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7679,9 +6864,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7792,9 +6980,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -7905,9 +7096,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -8018,9 +7212,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -8131,9 +7328,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"copper_75C"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -8244,9 +7444,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"M19_24G_2DSF0.950"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -11385,9 +10588,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -11742,9 +10948,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -11855,9 +11064,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -11968,9 +11180,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -12081,9 +11296,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -12194,9 +11412,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -12307,9 +11528,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -12420,9 +11644,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -12533,9 +11760,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -12646,9 +11876,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -12759,9 +11992,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13069,9 +12305,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13182,9 +12421,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13295,9 +12537,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13408,9 +12653,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13521,9 +12769,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13634,9 +12885,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13747,9 +13001,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13860,9 +13117,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -13973,9 +13233,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -14086,9 +13349,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"vacuum"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -14332,9 +13598,12 @@ $begin 'AnsoftProject'
 								MaterialValue='"XG196/96_2DSF1.000_X"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -14448,9 +13717,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -14981,9 +14253,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15043,9 +14318,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15105,9 +14383,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15167,9 +14448,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15229,9 +14513,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15291,9 +14578,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15353,9 +14643,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15415,9 +14708,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15477,9 +14773,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15539,9 +14838,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15601,9 +14903,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15663,9 +14968,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15725,9 +15033,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15787,9 +15098,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15849,9 +15163,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15911,9 +15228,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -15973,9 +15293,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16035,9 +15358,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16097,9 +15423,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16159,9 +15488,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16221,9 +15553,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16283,9 +15618,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16345,9 +15683,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16407,9 +15748,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16469,9 +15813,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16531,9 +15878,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16593,9 +15943,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16655,9 +16008,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16717,9 +16073,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16779,9 +16138,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16841,9 +16203,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16903,9 +16268,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -16965,9 +16333,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -17027,9 +16398,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -17089,9 +16463,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -17151,9 +16528,12 @@ $begin 'AnsoftProject'
 								MaterialValue='""'
 								SurfaceMaterialValue='""'
 								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
 								IsMaterialEditable=true
 								UseMaterialAppearance=false
 								IsLightweight=false
+								IsAlwaysHidden=false
 							$end 'Attributes'
 							$begin 'Operations'
 								$begin 'Operation'
@@ -18706,7 +18086,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=11
 				Default_PlotFolder='Automatic'
-				Default_Time='-1s'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=2
@@ -18844,12 +18223,12 @@ $begin 'AnsoftProject'
 					$begin 'PlotOnSurfaceSettings'
 						Filled=false
 						IsoValType='Fringe'
-						SmoothShade=true
 						AddGrid=false
 						MapTransparency=true
 						Refinement=0
 						Transparency=0
 						SmoothingLevel=0
+						ShadingType=0
 						$begin 'Arrow3DSpacingSettings'
 							ArrowUniform=true
 							ArrowSpacing=1.74797165393829
@@ -18879,12 +18258,12 @@ $begin 'AnsoftProject'
 					$begin 'PlotOnSurfaceSettings'
 						Filled=false
 						IsoValType='Fringe'
-						SmoothShade=true
 						AddGrid=false
 						MapTransparency=true
 						Refinement=0
 						Transparency=0
 						SmoothingLevel=0
+						ShadingType=0
 						$begin 'Arrow3DSpacingSettings'
 							ArrowUniform=true
 							ArrowSpacing=4.24264049530029
@@ -18921,76 +18300,25 @@ $begin 'AnsoftProject'
 							MoveBackwards=false
 							IDMap()
 						$end 'QuantityIDs'
-						SimValue('Current(PhaseA)', 1, 76, false, SimValueID=38, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseB)', 1, 76, false, SimValueID=39, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseC)', 1, 76, false, SimValueID=40, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Moving1.Torque', 1, 125, false, SimValueID=109, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Moving1.Position', 1, 51, false, SimValueID=111, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseA)', 1, 24, false, SimValueID=112, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseB)', 1, 24, false, SimValueID=113, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseC)', 1, 24, false, SimValueID=114, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseA)', 1, 24, false, SimValueID=115, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseB)', 1, 24, false, SimValueID=116, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseC)', 1, 24, false, SimValueID=117, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseA)', 1, 24, false, SimValueID=118, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseB)', 1, 24, false, SimValueID=119, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseC)', 1, 24, false, SimValueID=120, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseA)', 1, 152, false, SimValueID=121, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseB)', 1, 152, false, SimValueID=122, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseC)', 1, 152, false, SimValueID=123, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Moving1.Position', 1, 51, false, SimValueID=195, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseA)', 1, 24, false, SimValueID=196, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseB)', 1, 24, false, SimValueID=197, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseC)', 1, 24, false, SimValueID=198, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseA)', 1, 24, false, SimValueID=199, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseB)', 1, 24, false, SimValueID=200, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseC)', 1, 24, false, SimValueID=201, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseA)', 1, 24, false, SimValueID=202, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseB)', 1, 24, false, SimValueID=203, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseC)', 1, 24, false, SimValueID=204, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseA)', 1, 152, false, SimValueID=205, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseB)', 1, 152, false, SimValueID=206, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseC)', 1, 152, false, SimValueID=207, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseA)', 1, 76, false, SimValueID=208, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseB)', 1, 76, false, SimValueID=209, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseC)', 1, 76, false, SimValueID=210, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Moving1.Position', 1, 51, false, SimValueID=211, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseA)', 1, 24, false, SimValueID=212, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseB)', 1, 24, false, SimValueID=213, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseA,PhaseC)', 1, 24, false, SimValueID=214, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseA)', 1, 24, false, SimValueID=215, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseB)', 1, 24, false, SimValueID=216, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseB,PhaseC)', 1, 24, false, SimValueID=217, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseA)', 1, 24, false, SimValueID=218, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseB)', 1, 24, false, SimValueID=219, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(PhaseC,PhaseC)', 1, 24, false, SimValueID=220, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseA)', 1, 152, false, SimValueID=221, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseB)', 1, 152, false, SimValueID=222, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseC)', 1, 152, false, SimValueID=223, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseA)', 1, 76, false, SimValueID=224, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseB)', 1, 76, false, SimValueID=225, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseC)', 1, 76, false, SimValueID=226, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Surface_detection_circle', 1, 90, false, SimValueID=457, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('Moving1.Position', 1, 51, false, SimValueID=458, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseA,PhaseA)', 1, 24, false, SimValueID=459, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseA,PhaseB)', 1, 24, false, SimValueID=460, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseA,PhaseC)', 1, 24, false, SimValueID=461, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseB,PhaseA)', 1, 24, false, SimValueID=462, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseB,PhaseB)', 1, 24, false, SimValueID=463, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseB,PhaseC)', 1, 24, false, SimValueID=464, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseC,PhaseA)', 1, 24, false, SimValueID=465, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseC,PhaseB)', 1, 24, false, SimValueID=466, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('L(PhaseC,PhaseC)', 1, 24, false, SimValueID=467, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('FluxLinkage(PhaseA)', 1, 152, false, SimValueID=468, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('FluxLinkage(PhaseB)', 1, 152, false, SimValueID=469, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('FluxLinkage(PhaseC)', 1, 152, false, SimValueID=470, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('Current(PhaseA)', 1, 76, false, SimValueID=471, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('Current(PhaseB)', 1, 76, false, SimValueID=472, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('Current(PhaseC)', 1, 76, false, SimValueID=473, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('H_1', 1, 90, false, SimValueID=474, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('B_1', 1, 90, false, SimValueID=475, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('B_Vector', 1, 103, false, SimValueID=476, 3, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Mag_H', 1, 329, false, SimValueID=477, 3, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
+						SimValue('H_1', 1, 90, false, SimValueID=519, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
+						SimValue('B_1', 1, 90, false, SimValueID=520, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
+						SimValue('Current(PhaseA)', 1, 76, false, SimValueID=521, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Current(PhaseB)', 1, 76, false, SimValueID=522, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Current(PhaseC)', 1, 76, false, SimValueID=523, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Moving1.Torque', 1, 125, false, SimValueID=524, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseA,PhaseA)', 1, 22, false, SimValueID=525, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseA,PhaseB)', 1, 22, false, SimValueID=526, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseA,PhaseC)', 1, 22, false, SimValueID=527, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Moving1.Position', 1, 51, false, SimValueID=528, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseB,PhaseA)', 1, 22, false, SimValueID=529, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseB,PhaseB)', 1, 22, false, SimValueID=530, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseB,PhaseC)', 1, 22, false, SimValueID=531, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseC,PhaseA)', 1, 22, false, SimValueID=532, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseC,PhaseB)', 1, 22, false, SimValueID=533, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(PhaseC,PhaseC)', 1, 22, false, SimValueID=534, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('FluxLinkage(PhaseA)', 1, 152, false, SimValueID=535, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('FluxLinkage(PhaseB)', 1, 152, false, SimValueID=536, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('FluxLinkage(PhaseC)', 1, 152, false, SimValueID=537, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='NormalizedDistance'
@@ -19029,34 +18357,9 @@ $begin 'AnsoftProject'
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
 							$begin 'Sweep'
-								Variable='fractions'
-								Column='1'
-								Units=''
-							$end 'Sweep'
-							$begin 'Sweep'
 								Variable='Time'
 								Column='0ms;0.03ms;0.06ms;0.09ms;0.12ms;0.15ms;0.18ms;0.21ms;0.24ms;0.27ms;0.3ms;0.33ms;0.36ms;0.39ms;0.42ms;0.45ms;0.48ms;0.51ms;0.54ms;0.57ms;0.6ms;0.63ms;0.66ms;0.69ms;0.72ms;0.749999999999999ms;0.779999999999999ms;0.809999999999999ms;0.839999999999999ms;0.869999999999999ms;0.899999999999999ms;0.929999999999999ms;0.959999999999999ms;0.989999999999999ms;1.02ms;1.05ms;1.08ms;1.11ms;1.14ms;1.17ms;1.2ms;1.23ms;1.26ms;1.29ms;1.32ms;1.35ms;1.38ms;1.41ms;1.44ms;1.47ms;1.5ms;1.53ms;1.56ms;1.59ms;1.62ms;1.65ms;1.68ms;1.71ms;1.74ms;1.77ms;1.8ms;1.83ms;1.86ms;1.89ms;1.92ms;1.95ms;1.98ms;2.01ms;2.04ms;2.07ms;2.1ms;2.13ms;2.16ms;2.19ms;2.22ms;2.25ms;2.28ms;2.31ms;2.34ms;2.37ms;2.4ms;2.43ms;2.46ms;2.49ms;2.52ms;2.55ms;2.58ms;2.61ms;2.64ms;2.67ms;2.7ms;2.73ms;2.76ms;2.79ms;2.82ms;2.85ms;2.88ms;2.91ms;2.94ms;2.97ms;3ms;3.03ms;3.06ms;3.09ms;3.12ms;3.15ms;3.18ms;3.21ms;3.24000000000001ms;3.27ms;3.30000000000001ms;3.33000000000001ms;3.333333ms'
 								Units='ms'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='delta'
-								Column='30.8688388692408deg'
-								Units='deg'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='conds'
-								Column='52'
-								Units=''
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='R1'
-								Column='0.650011060772906ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Le1'
-								Column='-3.11578493012813e-05H'
-								Units='H'
 							$end 'Sweep'
 						$end 'Sweeps'
 					$end 'SimDataExtractor'
@@ -19092,6 +18395,869 @@ $begin 'AnsoftProject'
 		$end 'AnimationSetups'
 		CacheHeaderFile='HDR4EB92028160068738724.tmp'
 	$end 'Maxwell2DModel'
+	$begin 'RMxprtDesign'
+		RepRewriteV2=true
+		Name='RMxprtDesign1'
+		DesignID=0
+		'Steel Threshold'=100
+		'Conductor Threshold'=100000
+		'Excel Template Path'=''
+		UDDEnabled=false
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'MachineSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			'Machine Type'='Generic Rotating Machines'
+			'Solution Type'=1
+			Units='mm'
+			$begin 'Round Wire Data'
+				$begin '4/0'
+					Diameter='11.684mm'
+					Wrap='0mm'
+				$end '4/0'
+				$begin '3/0'
+					Diameter='10.404mm'
+					Wrap='0mm'
+				$end '3/0'
+				$begin '2/0'
+					Diameter='9.266mm'
+					Wrap='0mm'
+				$end '2/0'
+				$begin '1/0'
+					Diameter='8.252mm'
+					Wrap='0mm'
+				$end '1/0'
+				$begin '1/0.5'
+					Diameter='7.788mm'
+					Wrap='0mm'
+				$end '1/0.5'
+				$begin '1'
+					Diameter='7.348mm'
+					Wrap='0mm'
+				$end '1'
+				$begin '1.5'
+					Diameter='6.934mm'
+					Wrap='0mm'
+				$end '1.5'
+				$begin '2'
+					Diameter='6.543mm'
+					Wrap='0mm'
+				$end '2'
+				$begin '2.5'
+					Diameter='6.175mm'
+					Wrap='0mm'
+				$end '2.5'
+				$begin '3'
+					Diameter='5.827mm'
+					Wrap='0mm'
+				$end '3'
+				$begin '3.5'
+					Diameter='5.499mm'
+					Wrap='0mm'
+				$end '3.5'
+				$begin '4'
+					Diameter='5.189mm'
+					Wrap='0mm'
+				$end '4'
+				$begin '4.5'
+					Diameter='4.897mm'
+					Wrap='0mm'
+				$end '4.5'
+				$begin '5'
+					Diameter='4.62mm'
+					Wrap='0mm'
+				$end '5'
+				$begin '5.5'
+					Diameter='4.361mm'
+					Wrap='0mm'
+				$end '5.5'
+				$begin '6'
+					Diameter='4.115mm'
+					Wrap='0mm'
+				$end '6'
+				$begin '6.5'
+					Diameter='3.884mm'
+					Wrap='0mm'
+				$end '6.5'
+				$begin '7'
+					Diameter='3.665mm'
+					Wrap='0mm'
+				$end '7'
+				$begin '7.5'
+					Diameter='3.459mm'
+					Wrap='0mm'
+				$end '7.5'
+				$begin '8'
+					Diameter='3.264mm'
+					Wrap='0mm'
+				$end '8'
+				$begin '8.5'
+					Diameter='3.081mm'
+					Wrap='0mm'
+				$end '8.5'
+				$begin '9'
+					Diameter='2.906mm'
+					Wrap='0mm'
+				$end '9'
+				$begin '9.5'
+					Diameter='2.743mm'
+					Wrap='0mm'
+				$end '9.5'
+				$begin '10'
+					Diameter='2.588mm'
+					Wrap='0mm'
+				$end '10'
+				$begin '10.5'
+					Diameter='2.443mm'
+					Wrap='0mm'
+				$end '10.5'
+				$begin '11'
+					Diameter='2.304mm'
+					Wrap='0mm'
+				$end '11'
+				$begin '11.5'
+					Diameter='2.174mm'
+					Wrap='0mm'
+				$end '11.5'
+				$begin '12'
+					Diameter='2.052mm'
+					Wrap='0mm'
+				$end '12'
+				$begin '12.5'
+					Diameter='1.938mm'
+					Wrap='0mm'
+				$end '12.5'
+				$begin '13'
+					Diameter='1.829mm'
+					Wrap='0mm'
+				$end '13'
+				$begin '13.5'
+					Diameter='1.725mm'
+					Wrap='0mm'
+				$end '13.5'
+				$begin '14'
+					Diameter='1.628mm'
+					Wrap='0mm'
+				$end '14'
+				$begin '14.5'
+					Diameter='1.537mm'
+					Wrap='0mm'
+				$end '14.5'
+				$begin '15'
+					Diameter='1.45mm'
+					Wrap='0mm'
+				$end '15'
+				$begin '15.5'
+					Diameter='1.369mm'
+					Wrap='0mm'
+				$end '15.5'
+				$begin '16'
+					Diameter='1.29mm'
+					Wrap='0mm'
+				$end '16'
+				$begin '16.5'
+					Diameter='1.219mm'
+					Wrap='0mm'
+				$end '16.5'
+				$begin '17'
+					Diameter='1.151mm'
+					Wrap='0mm'
+				$end '17'
+				$begin '17.5'
+					Diameter='1.085mm'
+					Wrap='0mm'
+				$end '17.5'
+				$begin '18'
+					Diameter='1.024mm'
+					Wrap='0mm'
+				$end '18'
+				$begin '18.5'
+					Diameter='0.965mm'
+					Wrap='0mm'
+				$end '18.5'
+				$begin '19'
+					Diameter='0.912mm'
+					Wrap='0mm'
+				$end '19'
+				$begin '19.5'
+					Diameter='0.861mm'
+					Wrap='0mm'
+				$end '19.5'
+				$begin '20'
+					Diameter='0.813mm'
+					Wrap='0mm'
+				$end '20'
+				$begin '20.5'
+					Diameter='0.767mm'
+					Wrap='0mm'
+				$end '20.5'
+				$begin '21'
+					Diameter='0.724mm'
+					Wrap='0mm'
+				$end '21'
+				$begin '21.5'
+					Diameter='0.683mm'
+					Wrap='0mm'
+				$end '21.5'
+				$begin '22'
+					Diameter='0.643mm'
+					Wrap='0mm'
+				$end '22'
+				$begin '22.5'
+					Diameter='0.607mm'
+					Wrap='0mm'
+				$end '22.5'
+				$begin '23'
+					Diameter='0.574mm'
+					Wrap='0mm'
+				$end '23'
+				$begin '23.5'
+					Diameter='0.541mm'
+					Wrap='0mm'
+				$end '23.5'
+				$begin '24'
+					Diameter='0.511mm'
+					Wrap='0mm'
+				$end '24'
+				$begin '24.5'
+					Diameter='0.483mm'
+					Wrap='0mm'
+				$end '24.5'
+				$begin '25'
+					Diameter='0.455mm'
+					Wrap='0mm'
+				$end '25'
+				$begin '25.5'
+					Diameter='0.429mm'
+					Wrap='0mm'
+				$end '25.5'
+				$begin '26'
+					Diameter='0.404mm'
+					Wrap='0mm'
+				$end '26'
+				$begin '26.5'
+					Diameter='0.381mm'
+					Wrap='0mm'
+				$end '26.5'
+				$begin '27'
+					Diameter='0.361mm'
+					Wrap='0mm'
+				$end '27'
+				$begin '27.5'
+					Diameter='0.34mm'
+					Wrap='0mm'
+				$end '27.5'
+				$begin '28'
+					Diameter='0.32mm'
+					Wrap='0mm'
+				$end '28'
+				$begin '28.5'
+					Diameter='0.302mm'
+					Wrap='0mm'
+				$end '28.5'
+				$begin '29'
+					Diameter='0.287mm'
+					Wrap='0mm'
+				$end '29'
+				$begin '29.5'
+					Diameter='0.269mm'
+					Wrap='0mm'
+				$end '29.5'
+				$begin '30'
+					Diameter='0.254mm'
+					Wrap='0mm'
+				$end '30'
+				$begin '30.5'
+					Diameter='0.239mm'
+					Wrap='0mm'
+				$end '30.5'
+				$begin '31'
+					Diameter='0.226mm'
+					Wrap='0mm'
+				$end '31'
+				$begin '31.5'
+					Diameter='0.213mm'
+					Wrap='0mm'
+				$end '31.5'
+				$begin '32'
+					Diameter='0.203mm'
+					Wrap='0mm'
+				$end '32'
+				$begin '32.5'
+					Diameter='0.19mm'
+					Wrap='0mm'
+				$end '32.5'
+				$begin '33'
+					Diameter='0.18mm'
+					Wrap='0mm'
+				$end '33'
+				$begin '33.5'
+					Diameter='0.17mm'
+					Wrap='0mm'
+				$end '33.5'
+				$begin '34'
+					Diameter='0.16mm'
+					Wrap='0mm'
+				$end '34'
+				$begin '34.5'
+					Diameter='0.15mm'
+					Wrap='0mm'
+				$end '34.5'
+				$begin '35'
+					Diameter='0.142mm'
+					Wrap='0mm'
+				$end '35'
+				$begin '35.5'
+					Diameter='0.135mm'
+					Wrap='0mm'
+				$end '35.5'
+				$begin '36'
+					Diameter='0.127mm'
+					Wrap='0mm'
+				$end '36'
+				$begin '36.5'
+					Diameter='0.119mm'
+					Wrap='0mm'
+				$end '36.5'
+				$begin '37'
+					Diameter='0.114mm'
+					Wrap='0mm'
+				$end '37'
+				$begin '37.5'
+					Diameter='0.107mm'
+					Wrap='0mm'
+				$end '37.5'
+				$begin '38'
+					Diameter='0.102mm'
+					Wrap='0mm'
+				$end '38'
+				$begin '38.5'
+					Diameter='0.094mm'
+					Wrap='0mm'
+				$end '38.5'
+				$begin '39'
+					Diameter='0.089mm'
+					Wrap='0mm'
+				$end '39'
+				$begin '39.5'
+					Diameter='0.084mm'
+					Wrap='0mm'
+				$end '39.5'
+				$begin '40'
+					Diameter='0.079mm'
+					Wrap='0mm'
+				$end '40'
+				$begin '40.5'
+					Diameter='0.076mm'
+					Wrap='0mm'
+				$end '40.5'
+				$begin '41'
+					Diameter='0.071mm'
+					Wrap='0mm'
+				$end '41'
+				$begin '41.5'
+					Diameter='0.066mm'
+					Wrap='0mm'
+				$end '41.5'
+				$begin '42'
+					Diameter='0.064mm'
+					Wrap='0mm'
+				$end '42'
+				$begin '42.5'
+					Diameter='0.061mm'
+					Wrap='0mm'
+				$end '42.5'
+				$begin '43'
+					Diameter='0.056mm'
+					Wrap='0mm'
+				$end '43'
+				$begin '43.5'
+					Diameter='0.053mm'
+					Wrap='0mm'
+				$end '43.5'
+				$begin '44'
+					Diameter='0.051mm'
+					Wrap='0mm'
+				$end '44'
+				$begin '44.5'
+					Diameter='0.048mm'
+					Wrap='0mm'
+				$end '44.5'
+				$begin '45'
+					Diameter='0.0447mm'
+					Wrap='0mm'
+				$end '45'
+				$begin '46'
+					Diameter='0.0399mm'
+					Wrap='0mm'
+				$end '46'
+				$begin '47'
+					Diameter='0.0356mm'
+					Wrap='0mm'
+				$end '47'
+				$begin '48'
+					Diameter='0.0315mm'
+					Wrap='0mm'
+				$end '48'
+				$begin '49'
+					Diameter='0.0282mm'
+					Wrap='0mm'
+				$end '49'
+				$begin '50'
+					Diameter='0.0251mm'
+					Wrap='0mm'
+				$end '50'
+				$begin '51'
+					Diameter='0.0224mm'
+					Wrap='0mm'
+				$end '51'
+				$begin '52'
+					Diameter='0.0198mm'
+					Wrap='0mm'
+				$end '52'
+			$end 'Round Wire Data'
+			$begin 'Rectangle Wire Data'
+				'Max(B/A)'=13
+				'Min(B/A)'=1.1
+				SkipOne=true
+				$begin 'AR Data'
+					A='1.02mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.15mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.29mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.45mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.63mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.83mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.05mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.3mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.59mm'
+					ChamferRadius='0.67mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.91mm'
+					ChamferRadius='0.67mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='3.26mm'
+					ChamferRadius='0.8mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='3.66mm'
+					ChamferRadius='0.8mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='4.12mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='4.62mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='5.19mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='5.83mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='6.54mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'B Data'
+					B='2.05mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.18mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.3mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.44mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.59mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.74mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.91mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.08mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.26mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.46mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.66mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.88mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.12mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.36mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.62mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.9mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.19mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.5mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.83mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.18mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.54mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.93mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='7.35mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='7.79mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='8.25mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='8.74mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='9.27mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='9.82mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='10.4mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='11.03mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='11.68mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='12.38mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='13.12mm'
+				$end 'B Data'
+			$end 'Rectangle Wire Data'
+			NextUniqueID=15
+			MoveBackwards=false
+			$begin 'Machine'
+				DataType='General Data'
+				DataLevel=0
+				DataOrder=0
+				DataID=0
+				ParentID=-1
+				DataName='Machine'
+				RotorType=10
+				StatorType=0
+				SourceType=0
+				Structure=0
+				ImportRotor=0
+				ImportStator=0
+				StatorCenter=0
+				RotorCenter=0
+				ImportType=true
+				MasterSlaveOnXais=true
+				HalfModel=false
+				UseMinimumSetting=false
+				Fraction=0
+				ImportGeometryFile=''
+				ImportDesignName=''
+				AirGapLength='0mm'
+				DoubleSided=0
+			$end 'Machine'
+			$begin 'Stator'
+				DataType='Stator'
+				DataLevel=1
+				DataOrder=1
+				DataID=1
+				ParentID=-1
+				DataName='Stator'
+				DataType='Stator'
+				NumberOfPoles=4
+				NumberOfSlots=12
+				SlotType=2
+				CircuitType=0
+				PositionControl=false
+			$end 'Stator'
+			$begin 'Shaft'
+				DataType='Shaft'
+				DataLevel=1
+				DataOrder=3
+				DataID=9
+				ParentID=-1
+				DataName='Shaft'
+				MagneticShaft=true
+				FrictionLoss='0W'
+				WindLoss='0W'
+				ReferenceSpeed='3600rpm'
+			$end 'Shaft'
+			$begin 'Rotor'
+				DataType='Rotor'
+				DataLevel=1
+				DataOrder=2
+				DataID=10
+				ParentID=-1
+				DataName='Rotor'
+				DataType='Rotor'
+				NumberOfPoles=4
+			$end 'Rotor'
+			$begin 'Core'
+				DataType='Core'
+				DataLevel=2
+				DataOrder=1
+				DataID=2
+				ParentID=1
+				DataName='Core'
+				OuterDiameter='120mm'
+				InnerDiameter='75mm'
+				Length='65mm'
+				SteelType='M19_24G'
+				StackingFactor=0.95
+				LaminationSectors=0
+				PressBoardThickness='0mm'
+				MagneticPressBoard=false
+				SkewWidth='0deg'
+			$end 'Core'
+			$begin 'Winding'
+				DataType='Winding'
+				DataLevel=2
+				DataOrder=2
+				DataID=4
+				ParentID=1
+				DataName='Winding'
+				WindingType='Whole-Coiled'
+				WindingLayers='1'
+				InputHalfTurnLength=false
+				HalfTurnLength='0mm'
+				ParallelBranches=1
+				ConductorsPerSlot='52'
+				CoilPitch=5
+				EndAdjustment='0mm'
+				BaseInnerRadius='0mm'
+				TipInnerDiameter='0mm'
+				EndClearance='0mm'
+				CoilWrap='0mm'
+				SlotLiner='0.3mm'
+				WedgeThickness='0mm'
+				LayerInsulation='0mm'
+				BottomInsulation='0mm'
+				LimitedFillFactor='0.75'
+				WdgNumberofPriodicMultipler=1
+				WdgConstantPitch=false
+				WdgConstantTurns=true
+				Wdgcoil_turns[6: 52, 52, 52, 52, 52, 52]
+				Wdgcoil_name[6: 'A', '-C', 'B', 'A', '-C', 'B']
+				Wdgcoil_go[6: '1', '2', '5', '6', '8', '10']
+				Wdgcoil_re[6: '12', '3', '4', '7', '9', '11']
+				NumberOfStrands='1'
+				WireWrap='0mm'
+				InterturnInsulation='0mm'
+				WireDiameter='0mm'
+				WireWidth='0mm'
+				WireThickness='0mm'
+				Gauge='0'
+				IsRectWireType=false
+				MixedDiamter[0:]
+				MixedNumber[0:]
+				MixedWidth[0:]
+				MixedThickness[0:]
+				WireFillet[0:]
+				CorrectionFactor=1
+				TopSpareSpace=0
+				BottomSpareSpace=0
+				ConductorType='copper_75C'
+			$end 'Winding'
+			$begin 'Core'
+				DataType='Core'
+				DataLevel=2
+				DataOrder=1
+				DataID=11
+				ParentID=10
+				DataName='Core'
+				OuterDiameter='74mm'
+				InnerDiameter='26mm'
+				Length='65mm'
+				SteelType='M19_24G'
+				StackingFactor=0.95
+				PoleType=3
+			$end 'Core'
+			$begin 'Slot'
+				DataType='Slot'
+				DataLevel=3
+				DataOrder=1
+				DataID=3
+				ParentID=2
+				DataName='Slot'
+				Hs0='0.5mm'
+				Hs1='1mm'
+				Hs2='8.2mm'
+				Bs0='2.5mm'
+				Bs1='5.6mm'
+				Bs2='7.6mm'
+				Rs='0mm'
+				AutoDesign=false
+				ParallelTooth=false
+				ToothWidth='0mm'
+			$end 'Slot'
+			$begin 'Pole'
+				DataType='Pole'
+				DataLevel=3
+				DataOrder=1
+				DataID=12
+				ParentID=11
+				DataName='Pole'
+				D1='72mm'
+				O1='3mm'
+				O2='3mm'
+				B1='2mm'
+				Rib='2mm'
+				HRib='1mm'
+				Layers='1'
+				LayerPitch='0mm'
+				MagnetThickness='3mm'
+				MagnetWidth='45mm'
+				MagnetType='XG196/96'
+			$end 'Pole'
+		$end 'MachineSetup'
+		$begin 'ParameterSetup'
+		$end 'ParameterSetup'
+		$begin 'AnalysisSetup'
+			$begin 'SolveSetups'
+				NextUniqueID=1
+				MoveBackwards=false
+				$begin 'Setup1'
+					ID=0
+					SetupType='GRM'
+					Enabled=true
+					$begin 'MeshLink'
+						ImportMesh=false
+					$end 'MeshLink'
+					RatedOutputPower='0.55kW'
+					RatedVoltage='220V'
+					RatedSpeed='3600rpm'
+					OperatingTemperature='75cel'
+					OperationType='Motor'
+					LoadType='ConstPower'
+					RatedPowerFactor='0.8'
+					Frequency='60Hz'
+					CapacitivePowerFactor=false
+				$end 'Setup1'
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+		$end 'Solutions'
+		$begin 'SolutionManager'
+			$begin 'SimSetup'
+				TypeName='BaseSetup'
+				ID=38
+				Name='Setup1'
+				$begin 'Solution'
+					ID=39
+					Name='Performance'
+					$begin 'SimDataExtractor'
+						$begin 'QuantityIDs'
+							NextUniqueID=0
+							MoveBackwards=false
+							IDMap()
+						$end 'QuantityIDs'
+					$end 'SimDataExtractor'
+				$end 'Solution'
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=384
+				$begin 'Setup'
+					N='Setup1'
+					V=384
+					Soln(N='Performance', V=384)
+				$end 'Setup'
+			$end 'Version ID Map'
+			$begin 'ID Map'
+				$begin 'Setup'
+					N='Setup1'
+					I=38
+					Soln(N='Performance', I=39)
+				$end 'Setup'
+			$end 'ID Map'
+			ValidationCacheHeader=''
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR3DC110428160068605738.tmp'
+	$end 'RMxprtDesign'
 	$begin 'DataInstances'
 		DesignEditor='TopLevel'
 		Refdes('0', 'U1')
@@ -19118,6 +19284,10 @@ $begin 'AnsoftProject'
 				$begin 'Properties'
 					TextProp('ID', 'SRID', '', '1')
 				$end 'Properties'
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'OHD', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'OHD', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
 			$end 'Compinst'
 		$end 'CompInstances'
 		$begin 'Instance'
@@ -19127,7 +19297,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Machine(Frame(ActivePage('Winding Editor', View(WindowPos(5, -1, -1, -11, -45, 75, 75, 667, 429)), View(WindowPos(5, -1, -1, -11, -45, 75, 75, 667, 429))))))
+						Circuit(Machine(Frame(ActivePage('Main', View(WindowPos(3, -1, -1, -11, -45, 75, 75, 667, 429))))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -19161,7 +19331,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=37
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Editor3d(View(WindowPos(5, -1, -1, -11, -45, 38, 38, 1243, 449), OrientationMatrix(0.0149999996647239, 1.9692256159054e-10, -2.3388138647995e-10, 0, 3.77814557417366e-10, 0.0149999996647239, -7.55629114834733e-10, 0, -3.77814557417366e-10, -7.55629114834733e-10, 0.0149999996647239, 0, 0, -2.98023223876953e-08, -5.05455875396729, 1, 0, 0.108926042914391, 0.539934515953064, 0.233829706907272, 0.407919436693192, -1.30940198898315, 11.4185199737549), Drawings[43: 'OuterRegion', 'Stator', 'Band', 'InnerRegion', 'Rotor', 'Shaft', 'Coil_6', 'Coil_7', 'Coil_8', 'Coil_5', 'Coil_0', 'Coil_2', 'Coil_10', 'Coil_1', 'Coil_4', 'Coil_9', 'Coil_3', 'Coil_11', 'Mag1_4', 'Mag1_9', 'Mag1_8', 'Mag2_3', 'Mag2_9', 'Mag1_0', 'Mag2_2', 'Mag1_1', 'Mag2_1', 'Mag2_4', 'Mag2_0', 'Mag2_6', 'Mag2_7', 'Mag1_2', 'Mag2_5', 'Mag1_6', 'Mag2_8', 'Mag1_5', 'Mag1_7', 'Mag1_3', 'Circle1', 'SurfApprox_Mag', 'SurfApprox_Main', 'PhaseA', 'Mag_H1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=1, dYForGrid=1, dZForGrid=1, dRForGrid=1, dThetaForGrid=10), 'View Solution Context'('Solution ID'=11, 'View IntrinsicVar'='Time=\'-1s\''), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						Circuit(Editor3d(View(WindowPos(5, -1, -1, -11, -45, 38, 38, 1243, 449), OrientationMatrix(0.0149999996647239, 1.9692256159054e-10, -2.3388138647995e-10, 0, 3.77814557417366e-10, 0.0149999996647239, -7.55629114834733e-10, 0, -3.77814557417366e-10, -7.55629114834733e-10, 0.0149999996647239, 0, 0, 0, -5.05455875396729, 1, 0, -1.90671932697296, 2.48534870147705, -0.869786500930786, 0.894076108932495, -1.30940198898315, 11.4185199737549), Drawings[41: 'OuterRegion', 'Stator', 'Band', 'InnerRegion', 'Rotor', 'Shaft', 'Coil_6', 'Coil_7', 'Coil_8', 'Coil_5', 'Coil_0', 'Coil_2', 'Coil_10', 'Coil_1', 'Coil_4', 'Coil_9', 'Coil_3', 'Coil_11', 'Mag1_4', 'Mag1_9', 'Mag1_8', 'Mag2_3', 'Mag2_9', 'Mag1_0', 'Mag2_2', 'Mag1_1', 'Mag2_1', 'Mag2_4', 'Mag2_0', 'Mag2_6', 'Mag2_7', 'Mag1_2', 'Mag2_5', 'Mag1_6', 'Mag2_8', 'Mag1_5', 'Mag1_7', 'Mag1_3', 'Circle1', 'SurfApprox_Mag', 'SurfApprox_Main'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=10, dYForGrid=10, dZForGrid=10, dRForGrid=10, dThetaForGrid=10), 'View Solution Context'('Solution ID'=11, 'View IntrinsicVar'='Time=\'-1s\''), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -19830,13 +20000,13 @@ $begin 'AnsoftProject'
 											$begin '0'
 												ParameterType='DoubleParam'
 												Units=''
-												ColumnDataFile='654620281600689155299'
+												ColumnDataFile='4B8717596160167050453'
 												ColumnDataFileMode='B'
 											$end '0'
 											$begin '1'
 												ParameterType='DoubleParam'
 												Units=''
-												ColumnDataFile='654620281600689155300'
+												ColumnDataFile='4B8717596160167050454'
 												ColumnDataFileMode='B'
 											$end '1'
 										$end 'ColsBlock'
@@ -19845,7 +20015,7 @@ $begin 'AnsoftProject'
 											$begin 'PrimarySweepCol'
 												ParameterType='DoubleParam'
 												Units=''
-												ColumnDataFile='654620281600689155301'
+												ColumnDataFile='4B8717596160167050455'
 												ColumnDataFileMode='B'
 											$end 'PrimarySweepCol'
 										$end 'PrimarySweepInfo'
@@ -19901,13 +20071,13 @@ $begin 'AnsoftProject'
 											$begin '0'
 												ParameterType='DoubleParam'
 												Units=''
-												ColumnDataFile='654620281600689155302'
+												ColumnDataFile='4B8717596160167050456'
 												ColumnDataFileMode='B'
 											$end '0'
 											$begin '1'
 												ParameterType='DoubleParam'
 												Units=''
-												ColumnDataFile='654620281600689155303'
+												ColumnDataFile='4B8717596160167050457'
 												ColumnDataFileMode='B'
 											$end '1'
 										$end 'ColsBlock'
@@ -19916,7 +20086,7 @@ $begin 'AnsoftProject'
 											$begin 'PrimarySweepCol'
 												ParameterType='DoubleParam'
 												Units='ms'
-												ColumnDataFile='654620281600689155304'
+												ColumnDataFile='4B8717596160167050458'
 												ColumnDataFileMode='B'
 											$end 'PrimarySweepCol'
 										$end 'PrimarySweepInfo'
@@ -21253,7 +21423,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -21359,6 +21529,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -22662,7 +22856,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -22768,6 +22962,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -24096,7 +24314,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -24202,6 +24420,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -25531,7 +25773,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -25637,6 +25879,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -26966,7 +27232,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -27072,6 +27338,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -28507,7 +28797,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=74
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -28679,26 +28969,6 @@ $begin 'AnsoftProject'
 							ReportID=3
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -11, -45, 76, 76, 1285, 491))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Stator Currents'
@@ -28706,26 +28976,6 @@ $begin 'AnsoftProject'
 							ReportID=5
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -11, -45, 114, 114, 1323, 529))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Torque'
@@ -28733,26 +28983,6 @@ $begin 'AnsoftProject'
 							ReportID=8
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -11, -45, 152, 152, 1361, 567))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'L_dq'
@@ -28760,26 +28990,6 @@ $begin 'AnsoftProject'
 							ReportID=11
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -11, -45, 190, 190, 1399, 605))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Flux_dq'
@@ -28787,26 +28997,6 @@ $begin 'AnsoftProject'
 							ReportID=14
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -11, -45, 0, 0, 1209, 415))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'I_dq'
@@ -28814,26 +29004,6 @@ $begin 'AnsoftProject'
 							ReportID=17
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(74)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(74, cam(XYCam(false, true, true, true, -0.138075530529022, 1.36555969715118, -0.200920507311821, 1.3027149438858, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(3, -1, -1, -11, -45, 152, 152, 1361, 567))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'recoil_curve'
@@ -28856,6 +29026,14 @@ $begin 'AnsoftProject'
 					SODComponentList()
 				$end 'CosimDefinition'
 			$end 'RMxprtDesign1'
+			$begin 'Maxwell2DDesign1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'Maxwell2DDesign1'
 		$end 'SODInfo'
 	$end 'DataInstances'
 	$begin 'WBSystemIDToDesignInstanceIDMap'
@@ -28872,19 +29050,19 @@ $begin 'AllReferencedFilesForProject'
 $begin 'DesignInst_37.setup/TraceDataFolder'
 NumFiles= 6
 $begin ''
-DesignInst_37.setup/TraceDataFolder/654620281600689155299
+DesignInst_37.setup/TraceDataFolder/4B8717596160167050453
 BIN000000000224
     À>*Á    €¢)Á    @)Á     j(Á    ÀÍ'Á    €1'Á    @•&Á     ù%Á     %Á    ”<$Á    ”c#Á    Hƒ"Á    P›!Á    F« Á    teÁ    tbÁ    ˆLÁ    ¤"Á     ãÁ    XÁ    |ÍÁ    Ø„Á    °n	Á    XÁ    Ð„þÀ    XôÀ    XäÀ        $end ''
 $begin ''
-DesignInst_37.setup/TraceDataFolder/654620281600689155300
+DesignInst_37.setup/TraceDataFolder/4B8717596160167050454
 BIN000000000224
 £Ú¼õ¿Ûímwbë¿Ð«UIÑ»á¿»ª`65Ø¿*ìšw9øÐ¿,þo®Æ¿üá3NMF½¿›™ph°¿        ×:Ñ	ü¨?+ðº#ü¸?ãQ*á	½Â?Ôœ¼ÈüÈ? ¸Ê;Ï?¶il¯½Ò?\wóT‡ÜÕ?…zúüØ?§’ ŠÜ?M ˆE;ß?pwÖn»Pá?ógš°ýâ?_Ò­£ªä?Ë…Ê¿–Wæ?79|Ò‰è?¢ì-å|±é? ß÷o^ë?‘Gp#eí?¸…ëQ¸î?$end ''
 $begin ''
-DesignInst_37.setup/TraceDataFolder/654620281600689155301
+DesignInst_37.setup/TraceDataFolder/4B8717596160167050455
 BIN000000000224
     À>*Á    €¢)Á    @)Á     j(Á    ÀÍ'Á    €1'Á    @•&Á     ù%Á     %Á    ”<$Á    ”c#Á    Hƒ"Á    P›!Á    F« Á    teÁ    tbÁ    ˆLÁ    ¤"Á     ãÁ    XÁ    |ÍÁ    Ø„Á    °n	Á    XÁ    Ð„þÀ    XôÀ    XäÀ        $end ''
 $begin ''
-DesignInst_37.setup/TraceDataFolder/654620281600689155302
+DesignInst_37.setup/TraceDataFolder/4B8717596160167050456
 BIN000000000904
 Ô`1
 îÁßZ _ñÿÀWNçÀjÿÀÆÜ_&ŸÿÀÌÜÙ;³ÞþÀOe»dë}þÀ”Û;&…ÍþÀó‰Ðå 1ÿÀ]%”ûlþÀúû¥¨DÜþÀmžÔÞüþÀÀËÏÿÀà§@ÂF Á‘ÆUÈõI Áðƒè¾y’ ÁåðÌ‡!Ú Áß-1*S$Á$ô[ªoÁŒW\´¼ÁCWJH>
@@ -28903,11 +29081,11 @@ BIN000000000904
 ÚÛ‘DÁ«„í{šHÁlTJí MÁšSÝ¸Á¤²‘‹‹ÁerY»EÁ@|PAiÁ•±çrÁä’‰	ÕÁ`4×?åÁÄzmÑØíÁä,–øÁð5é	ÁJÖàCûÁ‚5w÷ÁéçWU,+ÁÂ2=>Áæj³ÐÂNÁ¼…‚RCaÁGnYÄ?tÁP™m3…Á¿xà‹Ü“Á}LcÚ Áöƒ4¯»¯Á³I‹“¶ÁaÅi™¾Á/úL{§ÆÁñ
 4c]ÎÁÂÂñœÕÁr žž€ÜÁù“XÖßâÁê]ƒQýèÁç<M!ïÁIF·9õÁ®³¯|	ûÁåx¨ÁÊŽfü(Áœ‰ ŠÁ.N5‘ÁŸÍ$÷Á³|’!ÁV•¶üæ(Áï\K0Áœ5î¦7Á‚-d€9Á$end ''
 $begin ''
-DesignInst_37.setup/TraceDataFolder/654620281600689155303
+DesignInst_37.setup/TraceDataFolder/4B8717596160167050457
 BIN000000000904
 nª"m ê?•nÛ_ê?låðºê?§¦ñŸýé?®.c£ïé?5èé?¡25<1Ûé?òëA,Íé?¸l¦ò¾é?$ô­Ñµ®é?óCwäDžé?ÚRn€¦Œé?¸@á%yé?ÍÐ¿á£dé?´4é¶ÕMé?Õ,<1N6é?3®B‰ëé?rVÌÏ#é?¿jœTËåè?Ìö€DÈè?’¹÷]Õ¨è?ÄÅg¤Æˆè?Šñÿh§gè?€ôÐ{çEè?â‰.Õ$è?¹í¾`è?”úÞ·áç?ü¢>ß½ç?W®‚Ú˜ç?|®DVrç?{-8ExIç?þgVöç?]4Sñæ?‰â’R_Âæ?/N °…’æ?ŽÝÇ+4`æ?SÉã‡´(æ?€‹Œûfìå?€dò¨Kªå?È|±cå?â1Äöå?Ò•ú(ÞÒä?nCùkŒä?ÚežJHä?Æ †	ä?S±+\—Êã?ÁgB+ã?ó,œ6vQã?äŒ9Òîã?¦XúÃpÙâ?éÂ›åÝâ?€Ã\*bâ?¬)Ï6B'â?ðÅŒÆöìá?;¢(Ú^²á?Uz¶wá?;äøðµ6á?Sß•á?oÃQ…Êà?öGíBÙ‘à?ã¡ØÁYà?±_I"à?É½öC×ß?…w¤®jß?ölðøþÞ?2L^Å‘Þ?*…Ê-$Þ?AbßŠ÷·Ý?(ƒ1…HÝ?ùiwuUÜÜ?)HÄçmÜ?Ä4©VÿÛ?¦šìS'Û?XOÈ'šAÛ?É¦Û²©Ú?,Ì¼þÀ3Ú?ék%›¿Ù?cðû@?Ù?~|½ÀöÆØ?{AgtJØ?óD-LoË×?ÃƒÓ{6J×?æ'n•8ÇÖ?9€Î´Í>Ö?ÜL æ¯Õ?+«bG"Õ?Að$œÙÔ?—|tèRýÓ?tÿ=kÓ?’ÇÙØMÚÒ?	ÿB_JÒ?ÈD0gŒ¶Ñ?‚jJ”ì+Ñ?‡ØFf`žÐ?iÝ÷.oÐ?È4ë8ÿÎ?—EŽ)ÞÍ?–\ ©l»Ì?È“Õ~—Ë?mÜ¥#µqÊ?2æ[IÉ?2i+©È?7J±[IòÆ?;HËÃÅ?sÙ‰‘Ä?›!‡,\Ã?gÀÍ ª$Â?$”­ÃéÀ?ŸQ…[¿?ÄunhÚ¼?<½÷Ó0Uº?²N·Ì·?›@'P€·?$end ''
 $begin ''
-DesignInst_37.setup/TraceDataFolder/654620281600689155304
+DesignInst_37.setup/TraceDataFolder/4B8717596160167050458
 BIN000000000904
         iUMuÿ>iUMu?Öÿ9Ì—?iUMu?a2U0*©#?Öÿ9Ì—'?¼yªCn†+?iUMu/?‹à+Ù±1?a2U0*©3?8„*5{ 5?Öÿ9Ì—7?æ'Õ>9?¼yªCn†;?“ËH¿}=?iUMu?? 7©0¶@?‹à+Ù±A?v‰ê­­B?a2U0*©C?MÛ¿²Ò¤D?8„*5{ E?#-•·#œF?Öÿ9Ì—G?ñ~j¼t“H?Ü'Õ>I?ÈÐ?ÁÅŠJ?²yªCn†K?ž"Æ‚L?‰ËH¿}M?utêÊgyN?_UMuO?%ãßg\8P? 7©0¶P?ŒJê4Q?‹à+Ù±Q?5µl­/R?v‰ê­­R?ìÝïU+S?a2U0*©S?×†Šqþ&T?MÛ¿²Ò¤T?Ã/õó¦"U?8„*5{ U?®Ø_vOV?#-•·#œV?™Êø÷W?Öÿ9Ì—W?„*5{ X?ú~j¼t“X?pÓŸýHY?æ'Õ>Y?[|
 €ñZ?ÑÐ?ÁÅŠZ?F%uš[?¼yªCn†[?1Îß„B\?§"Æ‚\?wJëÿ\?“ËH¿}]? µ‰“û]?~têÊgy^?óÈ<÷^?iUMu_?ÞqŠŽäò_?*ãßg\8`?dzˆFw`? 7©0¶`?Úá¯Éõ`?ŒJê4a?P6å

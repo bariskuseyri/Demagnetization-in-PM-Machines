@@ -24,7 +24,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Gauss's Law for Electric Fields}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Gauss's Law for Magnetic Fields}{4}%
+\contentsline {paragraph}{Gauss's Law for Magnetic Fields}{5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Faraday's Induction Law}{5}%
 \defcounter {refsection}{0}\relax 
@@ -40,9 +40,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Calculating Magnetism in Hydrogen Atom w.r.t. Bohr Model}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\hbox to\@tempdima {1.5\hfil }Types of Magnetism}{7}%
+\contentsline {subsection}{\hbox to\@tempdima {1.5\hfil }Types of Magnetism}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\hbox to\@tempdima {1.5.1\hfil }Weak Magnetism}{7}%
+\contentsline {subsubsection}{\hbox to\@tempdima {1.5.1\hfil }Weak Magnetism}{8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\hbox to\@tempdima {1.5.2\hfil }Ferromagnetism}{8}%
 \defcounter {refsection}{0}\relax 
@@ -86,6 +86,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Temperature Based Demagnetization}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\hbox to\@tempdima {A\hfil }Appendix}{14}%
+\contentsline {subsection}{\hbox to\@tempdima {3.3\hfil }ch13: Magnetostatics}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\hbox to\@tempdima {B\hfil }Questions}{16}%
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.1\hfil }The magnetic field}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.2\hfil }Electric current; the conservation of charge}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.3\hfil }The magnetic force on a current}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.4\hfil }The magnetic field of steady currents; Ampère’s law}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.5\hfil }The magnetic field of a straight wire and of a solenoid; atomic currents}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.6\hfil }The relativity of magnetic and electric fields}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.7\hfil }The transformation of currents and charges}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.8\hfil }•}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\hbox to\@tempdima {3.3.9\hfil }•}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.4\hfil }ch14: The Magnetic Field in Various Situations}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.5\hfil }ch29: The Motion of Charges in Electric and Magnetic Fields}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.6\hfil }ch34: The Magnetism of Matter}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.7\hfil }ch35: Paramagnetism and Magnetic Resonance}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.8\hfil }ch36: Ferromagnetism}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.9\hfil }ch37: Magnetic Materials}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.10\hfil }Gauss's Divergence Theorem}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.11\hfil }Stokes' Theorem, also Green's Theorem}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.12\hfil }Line Integral}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\hbox to\@tempdima {3.13\hfil }Continuity equation}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\hbox to\@tempdima {A\hfil }Appendix}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\hbox to\@tempdima {B\hfil }Questions}{17}%

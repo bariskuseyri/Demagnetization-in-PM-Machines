@@ -29,13 +29,11 @@ array_size = size(C_array,1);
 
 HkOe = str2double(C_array(3:array_size,1));
 HAm = (1000*(1000/(4*pi)))*HkOe;
-
 BT = str2double(C_array(3:array_size,2));
 
 BH = [HAm';BT'];
 
 fclose(fileID);
-
 
 fileID1 = fopen('VAC633AP20degC_B(T)H(Am).tab','w');
 fprintf(fileID1,'%5s\t%5s\r\n',title);

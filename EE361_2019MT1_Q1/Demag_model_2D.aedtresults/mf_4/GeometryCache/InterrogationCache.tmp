@@ -12,11 +12,11 @@ $begin 'InterrogationCache'
 		$begin '6'
 			$begin 'Properties'
 				Volume='0'
-				Area='255.64999999999998'
+				Area='260.42499999999995'
 				Valid=true
 			$end 'Properties'
 			$begin 'BoundingBox'
-				Low[3: -31.5, 2.870000000000001, 0]
+				Low[3: -31.5, 1.9149999999999991, 0]
 				High[3: 2.5, 17, 0]
 				Exact=true
 				Valid=true
@@ -25,12 +25,12 @@ $begin 'InterrogationCache'
 		$begin '47'
 			$begin 'Properties'
 				Volume='0'
-				Area='255.64999999999998'
+				Area='260.42499999999995'
 				Valid=true
 			$end 'Properties'
 			$begin 'BoundingBox'
 				Low[3: -31.5, -17, -0]
-				High[3: 2.5, -2.870000000000001, 0]
+				High[3: 2.5, -1.9149999999999991, 0]
 				Exact=true
 				Valid=true
 			$end 'BoundingBox'
@@ -38,12 +38,12 @@ $begin 'InterrogationCache'
 		$begin '69'
 			$begin 'Properties'
 				Volume='0'
-				Area='28.699999999999982'
+				Area='19.149999999999988'
 				Valid=true
 			$end 'Properties'
 			$begin 'BoundingBox'
-				Low[3: -31.5, -2.8700000000000001, -0]
-				High[3: -26.500000000000004, 2.8700000000000001, 0]
+				Low[3: -31.5, -1.915, -0]
+				High[3: -26.500000000000004, 1.915, 0]
 				Exact=true
 				Valid=true
 			$end 'BoundingBox'
@@ -64,12 +64,12 @@ $begin 'InterrogationCache'
 		$begin '112'
 			$begin 'Properties'
 				Volume='0'
-				Area='10404'
+				Area='2239.9199999999996'
 				Valid=true
 			$end 'Properties'
 			$begin 'BoundingBox'
-				Low[3: -65.5, -51, 0]
-				High[3: 36.5, 51, 0]
+				Low[3: -34.899999999999999, -20.399999999999999, 0]
+				High[3: 20, 20.399999999999999, 0]
 				Exact=true
 				Valid=true
 			$end 'BoundingBox'
