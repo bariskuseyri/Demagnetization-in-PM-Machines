@@ -1,0 +1,12 @@
+$begin 'CacheDataVersion'
+	DataVersion=35
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	fractions='4'
+	f_e='w_f/(2*pi) Hz'
+	elec_phase='-105deg'
+	w_m='((1500*2*pi)/60) rad_per_sec'
+	p='2'
+	w_f='w_m*p rad_per_sec'
+	Ipk='50A*sqrt(2)'
+$end 'VariableValues'

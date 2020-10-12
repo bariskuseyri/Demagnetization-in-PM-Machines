@@ -1,0 +1,97 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000010, day=000000000006, hour=000000000017, min=000000000014, sec=000000000049)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003117, lin=000000000078, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock10'
+	SolutionName='Transient'
+	SolutionID=13
+	V=3574
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock10'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=12, Instance=\'SetupDefinition\', Solution=-1, VersionID=2196)'='SolutionBlock3'
+	'SolutionKey(SimSetup=12, Instance=\'SolutionDefinition\', Solution=13, VersionID=3574)'='SolutionBlock10'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SimSetupID=12
+	SimSetupName='Setup1'
+	VersionID=2196
+	SolveSetupID=0
+	$begin 'StartingMesh'
+		IDDblMap(2727, -1)
+		$begin 'DataMap'
+			VID=3429
+			Ver=2196
+			SM(DblID=2727, Dir='DV3429_S12_V2196.smesh2727/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'MeshOps'
+		OPS(VID=3429, Ver=2196, ID=0, ID=1, ID=4, ID=5)
+	$end 'MeshOps'
+	$begin 'Profiles'
+		P(VID=3429, Ver=2196, File='DV3429_S12_V2196.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=3429, Ver=2196, Dir='DV3429_S12_MI0_V2196.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=3429, Ver=2196, Dir='DV3429_S12_V2196_MGI/')
+	$end 'MeshGeomInfo'
+	$begin 'AMOsetup'
+		AMO(VID=3429, Ver=2196, File='DV3429_S12_V2196.amo')
+	$end 'AMOsetup'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock1'
+	ProductName='Maxwell 2D'
+	CircuitName='dqAnalysis'
+	VersionID=2196
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=3586
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='elec_phase=\'-105deg\' f_e=\'50Hz\' fractions=\'4\' Ipk=\'2.8284271247461903A\' p=\'2\' w_f=\'314.15926535897933rad_per_sec\' w_m=\'157.07963267948966rad_per_sec\'', ID=3427)
+		Map(V='elec_phase=\'-14.999999999999998deg\' f_e=\'50Hz\' fractions=\'4\' Ipk=\'70.710678118654755A\' p=\'2\' w_f=\'314.15926535897933rad_per_sec\' w_m=\'157.07963267948966rad_per_sec\'', ID=3429)
+		Map(V='elec_phase=\'105deg\' f_e=\'50Hz\' fractions=\'4\' Ipk=\'2.8284271247461903A\' p=\'2\' w_f=\'314.15926535897933rad_per_sec\' w_m=\'157.07963267948966rad_per_sec\'', ID=3424)
+		Map(V='elec_phase=\'195deg\' f_e=\'50Hz\' fractions=\'4\' Ipk=\'2.8284271247461903A\' p=\'2\' w_f=\'314.15926535897933rad_per_sec\' w_m=\'157.07963267948966rad_per_sec\'', ID=2779)
+		Map(V='elec_phase=\'80deg\' f_e=\'50Hz\' fractions=\'4\' Ipk=\'2.8284271247461903A\' p=\'2\' w_f=\'314.15926535897933rad_per_sec\' w_m=\'157.07963267948966rad_per_sec\'', ID=2774)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=3429, Ver=2196, Dir='DV3429_V2196.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=3429, Ver=2196, Dir='DV3429_MI0_V2196.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=1687, lin=51, lvl=0)
+		SolutionBlock10(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=617, lin=14, lvl=0)
+		SolutionBlock3(pos=900, lin=19, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3117, lin=78, lvl=0)
+	$end '$index$'
+$end '$index$'
